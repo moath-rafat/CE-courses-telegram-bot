@@ -27,78 +27,102 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
                    } 
                 });            
             } catch(err) {
-                console.log("Falled here")
+                return res.sendStatus(200);
             }
         }
 
         else if(text === "Hardware") {
-            await axios.post(`${TELEGRAM_API}/sendMessage`, {
-                chat_id: chatID,
-                text,
-                reply_markup: {
-                    keyboard: hardware,
-                    resize_keyboard: true,
-                    one_time_keyboard: false
-                }
-            });
+            try {
+                await axios.post(`${TELEGRAM_API}/sendMessage`, {
+                    chat_id: chatID,
+                    text,
+                    reply_markup: {
+                        keyboard: hardware,
+                        resize_keyboard: true,
+                        one_time_keyboard: false
+                    }
+                });
+            } catch(err) {
+                return res.sendStatus(200);
+            }
         } 
 
         else if(text === "Software") {
-            await axios.post(`${TELEGRAM_API}/sendMessage`, {
-                chat_id: chatID,
-                text,
-                reply_markup: {
-                    keyboard: software,
-                    resize_keyboard: true,
-                    one_time_keyboard: false
-                }
-            });
+            try {
+                await axios.post(`${TELEGRAM_API}/sendMessage`, {
+                    chat_id: chatID,
+                    text,
+                    reply_markup: {
+                        keyboard: software,
+                        resize_keyboard: true,
+                        one_time_keyboard: false
+                    }
+                });
+            } catch(err) {
+                return res.sendStatus(200);
+            }
         }
 
         else if(text === "Networks") {
-            await axios.post(`${TELEGRAM_API}/sendMessage`, {
-                chat_id: chatID,
-                text,
-                reply_markup: {
-                    keyboard: network,
-                    resize_keyboard: true,
-                    one_time_keyboard: false
-                }
-            });
+            try {
+                await axios.post(`${TELEGRAM_API}/sendMessage`, {
+                    chat_id: chatID,
+                    text,
+                    reply_markup: {
+                        keyboard: network,
+                        resize_keyboard: true,
+                        one_time_keyboard: false
+                    }
+                });
+            } catch(err) {
+                return res.sendStatus(200);
+            }
         }
 
         else if(text === "Common Subjects") {
-            await axios.post(`${TELEGRAM_API}/sendMessage`, {
-                chat_id: chatID,
-                text,
-                reply_markup: {
-                    keyboard: common,
-                    resize_keyboard: true,
-                    one_time_keyboard: false
-                }
-            });
+            try {
+                await axios.post(`${TELEGRAM_API}/sendMessage`, {
+                    chat_id: chatID,
+                    text,
+                    reply_markup: {
+                        keyboard: common,
+                        resize_keyboard: true,
+                        one_time_keyboard: false
+                    }
+                });
+            } catch(err) {
+                return res.sendStatus(200);
+            }
         }
 
         else if(text === "Labs") {
-            await axios.post(`${TELEGRAM_API}/sendMessage`, {
-                chat_id: chatID,
-                text,
-                reply_markup: {
-                    keyboard: labs,
-                    resize_keyboard: true,
-                    one_time_keyboard: false
-                }
-            });
+            try {
+                await axios.post(`${TELEGRAM_API}/sendMessage`, {
+                    chat_id: chatID,
+                    text,
+                    reply_markup: {
+                        keyboard: labs,
+                        resize_keyboard: true,
+                        one_time_keyboard: false
+                    }
+                });
+            } catch(err) {
+                return res.sendStatus(200);
+            }
 
         }
 
         else if(subjectsInfo[text]) {
             const subjectText = subjectsInfo[text];  
 
-            await axios.post(`${TELEGRAM_API}/sendMessage`, {
-                chat_id: chatID,
-                text: subjectText
-            });
+            try {
+                await axios.post(`${TELEGRAM_API}/sendMessage`, {
+                    chat_id: chatID,
+                    text: subjectText
+                });
+            } catch(err) {
+                return res.sendStatus(200);
+            }
         }
     }
 
