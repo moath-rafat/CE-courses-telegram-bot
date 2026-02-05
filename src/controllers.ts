@@ -16,16 +16,19 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
         }
         
         if(text === "/start" || text === "Back") {
-            console.log("start or back");
-            await axios.post(`${TELEGRAM_API}/sendMessage`, {
-               chat_id: chatID,
-               text,
-               reply_markup: {
-                    keyboard: categories,
-                    resize_keyboard: true,
-                    one_time_keyboard: false
-               } 
-            });            
+            try {
+                await axios.post(`${TELEGRAM_API}/sendMessage`, {
+                   chat_id: chatID,
+                   text,
+                   reply_markup: {
+                        keyboard: categories,
+                        resize_keyboard: true,
+                        one_time_keyboard: false
+                   } 
+                });            
+            } catch(err) {
+                console.log("Falled here")
+            }
         }
 
         else if(text === "Hardware") {
@@ -52,7 +55,7 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
             });
         }
 
-        else if(text === "Network") {
+        else if(text === "Networks") {
             await axios.post(`${TELEGRAM_API}/sendMessage`, {
                 chat_id: chatID,
                 text,

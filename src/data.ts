@@ -1,29 +1,61 @@
-export const categories = ["Hardware", "Software", "Network", "Common Subjects", "Labs"];
-
-export const hardware = ["Circuit", "Machines", "Organization", "Embedded", "Design", "VLSI", "Parallel", "Control", "Back"];
-
-export const labs = [
-  "Logic Lab",
-  "Python Lab",
-  "Circuits Lab",
-  "Networks Lab",
-  "Embedded Lab",
-  "Technical Writing",
-  "VLSI Lab",
-  "Design Lab",
-  "Numerical Lab (MATLAB)",
-  "Parallel Lab",
-  "Advanced Networks Lab",
-  "Back"
+export const categories = [
+    ["Hardware"],
+    ["Software"],
+    ["Networks"],
+    ["Common Subjects"],
+    ["Labs"]
 ];
 
-export const software = ["Java", "Data Structures", "AI & ML", "Operating Systems", "Network Protocols", "Back"];
+export const hardware = [
+    ["Circuit"],
+    ["Machines"],
+    ["Organization"],
+    ["Embedded"],
+    ["Design"],
+    ["VLSI"],
+    ["Parallel"],
+    ["Control"],
+    ["Back"]
+];
 
+export const labs = [
+    ["Logic Lab"],
+    ["Python Lab"],
+    ["Circuits Lab"],
+    ["Networks Lab"],
+    ["Embedded Lab"],
+    ["Technical Writing"],
+    ["VLSI Lab"],
+    ["Design Lab"],
+    ["Numerical Lab (MATLAB)"],
+    ["Parallel Lab"],
+    ["Advanced Networks Lab"],
+    ["Back"]
+];
 
-export const network = ["Network", "Security", "Communication", "Back"];
+export const software = [
+    ["Java"],
+    ["Data Structures"],
+    ["AI & ML"],
+    ["Operating Systems"],
+    ["Network Protocols"],
+    ["Back"]
+];
 
+export const network = [
+    ["Network"],
+    ["Security"],
+    ["Communication"],
+    ["Back"]
+];
 
-export const common = ["Digital Logic", "Electronics 1", "Signals", "Back"];
+export const common = [
+    ["Digital Logic"],
+    ["Electronics 1"],
+    ["Signals"],
+    ["Back"]
+];
+
 
 
 export const subjectsInfo: Record<string, string> = {
