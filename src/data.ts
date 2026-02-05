@@ -50,16 +50,13 @@ export const subjectsInfo: Record<string, string> = {
         محاضرات الدكتورة سيرين
         http://bit.ly/3VNtIZi
 
-        محاضرات الدكتور يزيد الخطابي
-        https://youtube.com/playlist...
-
         شرح المصري
 
         - سيركت 1 -
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLFM6wDAJoh--qm9UD3VatCBeGJaPGlLK6&si=FznVXanX24ipWh0U
 
         - سيركت 2 -
-        https://youtube.com/playlist...
+    https://youtube.com/playlist?list=PLFM6wDAJoh-88gjdMrSJ28aPkw2-9uR6f&si=aQQMeOgni210emNb
 
         وبتلاقوا باقي المصادر من سنوات ودفاتر على موقع زينون👇🏻
 
@@ -84,7 +81,7 @@ export const subjectsInfo: Record<string, string> = {
         https://engzenon.com/library/material/403...
 
         شرح الدكتور لطفي من قسم الميكاترونكس📌:
-        https://m.youtube.com/.../UCgwcC5Kb7.../playlists...
+        https://youtube.com/@lutfialsharif?si=0_cxKhCwejmM__O4
 
         وباقي المصادر بتلاقوهم على موقع زينون👇🏻
         https://engzenon.com/library?filter=2`,
@@ -118,10 +115,9 @@ export const subjectsInfo: Record<string, string> = {
         https://engzenon.com/library/material/342...
 
         ⁃ فيديوهات الدكتور إياد جعفر:
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLYZvx2jaKOWLSSwpg71fnX--At6ydK5xA&si=p-2menLhsLo2w3EX
         ⁃ فيديوهات الدكتور وليد الدويك :
-        https://youtube.com/playlist...
-
+        https://youtube.com/playlist?list=PLW8LsvfW6Nn_j2iWsx8subcjgfADQRyI-&si=Y_O9Ek6QU_meqpA9&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEe2joT4nEOtRmBPHxgEWOBposVl2x9My4U3yr-Tabfkoc1VO5AmTAi0p65-xE_aem_qlGCM3-dqyBp6nLsSos2_A&sfnsn=wa
         📌وبتلاقوا باقي المصادر على موقع زينون:
         https://engzenon.com/library?filter=2`,        
     Embedded: `
@@ -151,9 +147,10 @@ export const subjectsInfo: Record<string, string> = {
         السلايدات:
         https://engzenon.com/library/material/133...
         فيديوهات دكتور إياد:
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLYZvx2jaKOWLUQIOU2EPAAs8S6FO6Z1bG&si=VupH2rcSU0Y6G4tS
         فيديوهات د أشرف:
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLTTbg17Aw5x0uYyo_4ohjrpmVfx05r9J5&si=JKhQaIGfeRdqMBOx
+        https://youtube.com/playlist?list=PLTTbg17Aw5x2o2z0nvf4N0OIj6p3jchIU&si=HRE60DYZTos827MI
 
         وباقي المصادر من سنوات ونوتس ودفاتر بتلاقوهم على موقع زينون👇🏻
         https://engzenon.com/library?filter=2`,
@@ -186,17 +183,18 @@ export const subjectsInfo: Record<string, string> = {
         https://engzenon.com/library/material/66...
 
         ⁃ فيديوهات شرح للمهندس أسامة أبو حمدان 🎥 :
-        https://www.youtube.com/watch?v=Umw0gA3Xi3g...
+        https://youtube.com/playlist?list=PLh7mINmitSDVxt3hd7CEUEdo1QFnxjySs&si=CZmXa7nbsc5-dWBY&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEe1O1RJDStswPnxs6ro32nLvqM50DSfDlPkKf8HTvXqcxI_ka0GzOOqP7-TCw_aem_NvsCz3vMPmxT-lcD17mhwQ&sfnsn=wa
 
         - فيديوهات الدكتور غيث على موقعه 🎥:
         https://www.abandah.com/gheith/?page_id=2671...
 
         فيديوهات الدكتور وليد:
 
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLW8LsvfW6Nn8fBUlkCWMHHY8s16c2ggWZ&si=olhhUxqJ4Ha1vQSF&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEeyvvFRirTIsZ1trmY48ip5YaVKUsBJO5X22hVefNNJ_KGy2SJH1hgozGgfIM_aem_B6-W2vaOgEirpiB9HAfdvw&sfnsn=wa
 
         فيديوهات الدكتور أشرف:
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLTTbg17Aw5x1SH2dMFsZirIVObF9KyOhn&si=HJZPhqrtU0Zbw7Nz
+        https://youtube.com/playlist?list=PLTTbg17Aw5x2sVifHfYLQnUqCTwodgK53&si=56nO_sEVEGKM3Z32
 
         وبتلاقوا باقي المصادر على موقع
         زينون:
@@ -227,7 +225,10 @@ export const subjectsInfo: Record<string, string> = {
         https://engzenon.com/library/material/103...
 
         فيديوهات شرح الدكتور محمد عبد المجيد:
-        https://web.microsoftstream.com/.../1d17b620-f5af-4d04...
+        https://youtube.com/playlist?list=PLLgmXclU_qd67DOeh1QYlQDd4dtdTpkBA&si=BwgmqHz16kXAyFzq
+
+        فيديوهات لمادة الإلكترونيات الرقمية:
+        https://youtube.com/playlist?list=PL9fwy3NUQKwaZgUE02hmS5fI0wHk77Q86&si=20XyTuoyJVRYgYOr
 
         ⁃ لينك تنزيل البرنامج Ltspice :
         https://softfamous.com/ltspice/
@@ -252,8 +253,7 @@ export const subjectsInfo: Record<string, string> = {
         سلايدات:
         https://engzenon.com/library/material/252...
         فيديوهات:
-        https://drive.google.com/.../1k5PdnE2doatiMaxLYQVRww4wTsX...
-
+        https://drive.google.com/drive/mobile/folders/1k5PdnE2doatiMaxLYQVRww4wTsXECEdC?usp=sharing&fbclid=IwdGRzaAPxVrtjbGNrA_FWsmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHlOAljEZCiTgRmujMJGrlDMjRbv10o74He1G0QnRA-4_IJt3FRtTBMT_qIHN_aem_moQPQ0Q-80QdIsZc2Xguww&sfnsn=wa
         وباقي المصادر بتلاقوهم على موقع زينون :
         https://engzenon.com/library?filter=2`,
     Control: `
@@ -296,23 +296,22 @@ export const subjectsInfo: Record<string, string> = {
         - تسجيلات الكنترول للفصل الثاني ٢٠٢٤:
         https://t.me/+LazKBh14KsJmYjE0
         - فيديوهات شرح الدكتور أشرف للمادة ،تقريبا أول ٣ تشابترات ،آخر ٦ فيديوهات على الموقع هي الي الها دخل بمادتنا ( من عند الفيديو الي اسمه Introduction to control systems) :
-        https://drsuyyagh.com/.../cpe533-rtcc-real-time-computer.../
-        https://drsuyyagh.com/.../cpe533-rtcc-real-time-computer.../
+        https://drsuyyagh.com/courses/cpe533-rtcc-real-time-computer-control/
 
         - شهادات الكنترول الي بطلبهم الدكتور من على موقع الmathworks :
-        1-Matlab Onramp: https://matlabacademy.mathworks.com/.../gettingstarted
-        2-Simulink: https://matlabacademy.mathworks.com/.../simulink.../simulink
-        3-Simscape: https://matlabacademy.mathworks.com/.../simulink.../simscape
-        4-Control Design Onramp: https://matlabacademy.mathworks.com/.../control.../controls
+        1-Matlab Onramp: https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted
+        2-Simulink: https://matlabacademy.mathworks.com/details/simulink-onramp/simulink
+        3-Simscape: https://matlabacademy.mathworks.com/details/simulink-onramp/simscape
+        4-Control Design Onramp: https://matlabacademy.mathworks.com/details/control-design-onramp-with-simulink/controls
         6-تلخيص للشهادات:(أول شهادة ما الها تلخيص لأنه الدكتور بنزل الها sheets وشهادة الsimscape ما الها لانه الدكتور ما بسأل عنها بالامتحانات ):
         1-مادة Simulink Onramp:
-        https://drive.google.com/.../1H6c8bYziz7Mhm.../view...
+        https://drive.google.com/file/d/1H6c8bYziz7Mhm_zwDyqwHYlPyawmu_mp/view?fbclid=IwdGRzaAPxWQ5jbGNrA_FZCGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjtFmBy0qCv17G6I9aWteL7FjTsNPsJDm9F7oir2qGTVxmNu0QfG5k1IQbNh_aem_yIg_4a65PdPHj2hpw5aTxA&sfnsn=wa        
         2-
         مادة Conrtol Onramp (PID controller design):
-        https://drive.google.com/.../1GX4GjEowx3Nos1a0tWD.../view...
+        https://drive.google.com/file/d/1GX4GjEowx3Nos1a0tWDqrFtS_8NaMEQq/view?fbclid=IwdGRzaAPxWUBjbGNrA_FZO2V4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHssCesD1_bmaFAkNr6AIFOrqgcW-W9FWwxE82tbKY-uFUSygv420AHGBM79q_aem_MHs3N55Ey3tPNBvdJYOSeA&sfnsn=wa        
         3-
         ✅ مادة PID Controller ، مع شرح الفيديوهات الي شرحها الدكتور:
-        https://drive.google.com/.../1IRGAnPnkgGz9lou2adM.../view...`,
+        https://drive.google.com/file/d/1IRGAnPnkgGz9lou2adMaGSm30Z2G9TKn/view?fbclid=IwdGRzaAPxWXNjbGNrA_FZb2V4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHlT4j35d2kPyQaXasLbQjNMgikkV2rzMZ_or-tRe7JI-CDp-Pw-2FFXj3r3h_aem_k2Wbl3OGz7MIrV_eYKUR3A&sfnsn=wa`,
     Java: `
         OOP|| JAVA
 
@@ -381,11 +380,11 @@ export const subjectsInfo: Record<string, string> = {
 
         ⁃ فيديوهات دكتور رمزي سعيفان عاليوتيوب:
 
-        https://youtube.com/playlist...
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLBWZnKTN_pVTCZeABChwc31I3WyBjvou-&si=HZDTgNELNzUjpjKr&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEecYWIh-Kp0wsRZW_JA7kyaQbXiprMoaFHrpSCOUm_-8VfO_UHh1cSyfBLfjE_aem_WIHxqsF1__hI8IysM4BwJw&sfnsn=wa
+        https://youtube.com/playlist?list=PLS5lYxmsWH9ewYlvla36aMngVxpHLJZJA&si=YBTeLLsRq2aeR0JJ
 
         ⁃ فيديوهات عادل نسيم عاليوتيوب:
-        https://youtube.com/playlist...`,   
+        https://youtube.com/playlist?list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&si=w-zU7bCCu_T0kjs9`,   
     "AI & ML": `
         AI💻
 
@@ -418,7 +417,7 @@ export const subjectsInfo: Record<string, string> = {
         💡 نصيحة: حاول تطبق الأمثلة أكثر من مرة، واعمل تجارب عملية عشان تتعمق بالمادة وتفهمها بشكل أكبر!
 
         📌فيديوهات:
-        https://drive.google.com/.../1Ym3ewAGcctQZnyHqyFuhCSt4ScQ...
+        https://drive.google.com/drive/folders/1Ym3ewAGcctQZnyHqyFuhCSt4ScQbCY4u?usp=sharing
 
         📌سلايدات:
         https://engzenon.com/library/material/336?title=Slides%20Dr.Mohammad_AbdelMajeed
@@ -445,9 +444,8 @@ export const subjectsInfo: Record<string, string> = {
         ٢٠ أساينمنتس
 
         📌فيديوهات بتساعدكم:
-        https://youtube.com/playlist...
-        https://youtube.com/playlist...
-
+        https://youtube.com/playlist?list=PLKlTaCM87WvrO0RElCsK30uS-ylzRLgFM&si=I2ZYrfvR5tB3Jeqf
+        https://youtube.com/playlist?list=PL0HDIDr4prB_FwprJ6s-SU4ksCGetPd2X&si=TV7lObGlxwUFNXOz
         كتاب:
         https://engzenon.com/library/material/323...
 
@@ -479,9 +477,6 @@ export const subjectsInfo: Record<string, string> = {
         30% على الميد.
         40% على الفاينل.
 
-        📌فيديوهات:
-        https://drive.google.com/.../15swAINEqNDLSCNcaE8...
-
         📌سلايدات:
         https://engzenon.com/library/material/347?title=NpSlides
 
@@ -511,11 +506,11 @@ export const subjectsInfo: Record<string, string> = {
         📌لينكات بتلزمكم:
 
         فيديوهات شرح د. خالد:
-        https://fisjo.sharepoint.com/.../EhUjUdWd9P9GgNQFzUtOvEwB...
+        https://fisjo.sharepoint.com/:f:/s/Summer2024ComputerNetworks/EhUjUdWd9P9GgNQFzUtOvEwBfTwDzzq1hTwp0cZidPwCTw?e=K2KDan
         فيديوهات شرح دكتور رمزي:
-        https://m.youtube.com/playlist...
+        https://youtube.com/playlist?list=PLS5lYxmsWH9d-BfroY_SqAEUdhtoEuCI1&si=Hr8k7A3QSIMryiSC
         فيديوهات شرح د علي موسى:
-        https://www.youtube.com/playlist...
+        https://youtube.com/playlist?list=PLBVzCFty9US25z9qtn_eGyMQ3CHSlftHL&si=gvKU7mxLs6a65E2Y
         سلايدات:
         https://engzenon.com/library/material/365...
 
@@ -550,7 +545,7 @@ export const subjectsInfo: Record<string, string> = {
 
         📌فيديوهات:
         د. رمزي سعيفان:
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLS5lYxmsWH9f-XJJSPGWyoizx6bL4yAoX&si=7wfIvAiHZvwHulIf
 
         📌سلايدات:
         https://engzenon.com/library/material/348...
@@ -570,7 +565,7 @@ export const subjectsInfo: Record<string, string> = {
 
         📌لينكات بتلزمكم:
         فيديوهات:
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLy42_pl2XRL7xTFR-3jZtB8iQz2GoZhKu&si=avNNsmg_eyOBaU-7
         الكتاب:
         https://engzenon.com/library/material/292?title=Forouzan,%20Behrouz%20-%20Data%20Communications%20and%20Network-McGraw-Hill%20(2013)
         حلول الكتاب:
@@ -607,30 +602,16 @@ export const subjectsInfo: Record<string, string> = {
         https://engzenon.com/library/material/224...
         لينك حلول الكتاب : 
         https://engzenon.com/library/material/1066?title=Solutions%20Manuals%20Logic%20and%20Computer%20Design%205th%20Edition
-        لينك السلايدات:
-
-        د.وليد : https://engzenon.com/library/material/1068?title=Logic%20Slides%20Dr%20Waleed
-        د.إياد : https://sites.google.com/.../iya.../0907231-digital-logic...
 
         فيديوهات :
 
         فيديوهات دكتور إياد:
-        https://youtube.com/playlist...
-        فيديوهات دكتور وليد:
-        https://youtube.com/playlist...
-        فيديوهات دكتور فهد:
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLYZvx2jaKOWL2ju78i8kHWJsNF2MZr3TQ&si=AZHkh-xpV4gex8LZ
         فيديوهات المهندسة أسماء:
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PL8N0YNzPnFbSLPRQHFb7ig7Pogz4UQ9ss&si=E3YBBGhzy3bTJSOz
 
         📃سنوات:
-        https://engzenon.com/library/material/1106?title=Digital%20Logic%20Exams%20First%20Mid%20Second%20Final
-
-        💬جروبات الواتس للمادة:
-        شعبة 1 https://chat.whatsapp.com/JDA0gmbbym23KFJT9A8qKe
-        شعبة 2 https://chat.whatsapp.com/Es5fOofAUTbCNR6d2WFdQo
-        شعبة 3 https://chat.whatsapp.com/Dk3NQdWtxF95H47fIgmptL
-        شعبة 4 https://chat.whatsapp.com/CVVcfN9ncIhExfL4j49CAE`,
+        https://engzenon.com/library/material/1106?title=Digital%20Logic%20Exams%20First%20Mid%20Second%20Final`,
     "Electronics 1": `
         𝐄𝐥𝐞𝐜𝐭𝐫𝐨𝐧𝐢𝐜𝐬 𝟏 (الكترو)
 
@@ -666,7 +647,7 @@ export const subjectsInfo: Record<string, string> = {
         سنوات:
         https://engzenon.com/library?filter=1
         فيديوهات:
-        https://www.youtube.com/playlist?app=desktop...
+        https://youtube.com/playlist?list=PLAS9eTwzbC3sXfmqtBN7r_8NZOjpG1MjG&si=7YUQQEVc62eMslLu
         موقع المهندس حمد للمادة :
         https://your-guide-in-electronics1.streamlit.app/`,  
     "Signals": `
@@ -700,10 +681,8 @@ export const subjectsInfo: Record<string, string> = {
         سنوات:
         https://engzenon.com/library?filter=1
         فيديوهات بتساعدكم :
-        https://youtube.com/playlist...
-        https://youtube.com/playlist...
-        https://youtube.com/playlist...
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLdL3o9rqPLb6pX0jukRtna5XE-1ZKPGCI&si=QOC0c-MH9q4vlIGR
+        https://youtube.com/playlist?list=PLEt20mng0VEQ1dBPtMHBCDpUvu5NkOxu_&si=WIDWsLR6WslzKjRy
 
         جروب الواتس للمادة:
         https://chat.whatsapp.com/KKQOfBBXf1V2EJvV8rsFXi`,
@@ -726,13 +705,11 @@ export const subjectsInfo: Record<string, string> = {
 
         📌 روابط مهمة:
 
-        🔗لينك تنزيل البرنامج :https://drive.google.com/.../17pmtoLtK77f9Yf7O6M.../view?usp=sharing
+        🔗لينك تنزيل البرنامج :https://drive.google.com/file/d/17pmtoLtK77f9Yf7O6M_AlaK4Y5aeNd4X/view?usp=sharing
 
         🔗 التجارب : https://engzenon.com/library/material/203...
 
         🔗 الشيتس:https://engzenon.com/library/material/204...
-
-        🔗 فيديوهات دكتور وليد : https://youtube.com/playlist...
 
         🔗 باقي السنوات والملخصات بتلاقوهم على موقع زينون: https://engzenon.com/library?filter=2`,    
     "Python Lab": `
@@ -771,11 +748,13 @@ export const subjectsInfo: Record<string, string> = {
 
         🔗الشيتس : https://engzenon.com/library/material/1353?title=python%20sheets
 
-        🔗 فيديوهات الدكتور محمد عبد المجيد للبايثون :https://www.youtube.com/playlist...
+        🔗 فيديوهات الدكتور محمد عبد المجيد للبايثون :
+        https://youtube.com/playlist?list=PLLgmXclU_qd4K8WdjRTNlO2TV2KJTG1UQ&si=4ZZUPAS1_TuRQY2Z&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEe5OM1jLx9zrnEv7ntQZaJr53nCwVbq8Wz12dEmuqJUQuUQoLi4mJQNmiazBs_aem_lubcphTbhYm4EPUFEHlajg&sfnsn=wa
 
-        🔗 فيديوهات الدكتور أشرف الصياغ :https://www.youtube.com/playlist...
+        🔗 فيديوهات الدكتور أشرف الصياغ :https://youtube.com/playlist?list=PLTTbg17Aw5x36qZF7qzIVBaPY_zumdUyN&si=3OY6ok1MKqbdc_o0
 
-        🔗 فيديوهات عمار الشمري لحل الlab sheets:https://www.youtube.com/playlist...
+        🔗 فيديوهات عمار الشمري لحل الlab sheets:
+        https://youtube.com/playlist?list=PL-EVTKfLcXHRQf7RkiHAHqwem7TJTVG3e&si=ay5bxzSk0wtHItx1
 
         🔗وبتلاقوا السنوات وباقي المصادر على موقع زينون : https://engzenon.com/library?filter=2`,   
     "Circuits Lab": `
@@ -796,7 +775,7 @@ export const subjectsInfo: Record<string, string> = {
         📌 روابط مهمة:
 
         🔗الفيديوهات اللي لازم تحضروها قبل اللّاب:
-        https://youtube.com/playlist...
+        https://youtube.com/playlist?list=PLX1vbaAW5jkFJaihD2Quo4tjpl0qma_iD&si=R3wmrcrKxPtmfUnL
 
         🔗 تفريغ الفيديوهات مع الخطوات:
         https://engzenon.com/library/material/1336?title=Circuit%20Lab%20Summary%20Fall%202024-2025
@@ -862,7 +841,7 @@ export const subjectsInfo: Record<string, string> = {
         🔗 موقع Microchip لتنزيل الmplab نسخة :8.56
         https://www.microchip.com)
 
-        🔗 شرح التجارب :https://www.youtube.com/playlist...
+        🔗 شرح التجارب :https://youtube.com/playlist?list=PLYZvx2jaKOWLVDDrCKmHREidbLWz2aXwB&si=LOy-07keJMhWdQGg
 
         🔗 التجارب:https://engzenon.com/library/material/149...
 
@@ -966,7 +945,7 @@ export const subjectsInfo: Record<string, string> = {
 
         🔗 فيديوهات اللاب:https://t.me/+RdfMp_YL7M02Yzhk
 
-        🔗 فيديوهات حلول اللابات وشرحها على قناة زينون: https://youtube.com/playlist...
+        🔗 فيديوهات حلول اللابات وشرحها على قناة زينون: https://youtube.com/playlist?list=PLEg7GFRR8V5CvsM7vqla5oTlJhgE2n4Z7&si=Fu5JaYbM1QgWDQbR&fbclid=IwY2xjawPxYsRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7SlnC7pv3Xo2kZSKvl77MT35a-nnsowsmvVvyxTq3F-_jwFIgoX85AEb2dgA_aem_heSKZGO74uBkV9XADvJHYQ&sfnsn=wa
 
         🔗سنوات:https://engzenon.com/library/material/359...
         https://engzenon.com/library/material/52`,     
@@ -1000,7 +979,8 @@ export const subjectsInfo: Record<string, string> = {
 
         🔗فيديوهات شرح: https://t.me/NumericalAnalysisLab
 
-        🔗 موقع د. أشرف الصياغ : drsuyyagh.com
+        🔗 فيديوهات الدكتور أشرف الصياغ :
+        https://youtube.com/playlist?list=PLTTbg17Aw5x2fiZ8i10lrYSp_e7Lft7kt&si=G33x09gp6M4zxAhI
 
         🔗 تحميل MATLAB من موقع ماتلاب بنسخة مجانية للطلاب: (https://www.mathworks.com/academia/tah-portal.html)
 
@@ -1032,7 +1012,6 @@ export const subjectsInfo: Record<string, string> = {
         📌 روابط مهمة:
 
         🔗 فيديوهات شرح :
-        **رح ينزلوا أول بأول على القناة **
         https://t.me/+a-zwQuJXwv5iNWFk
 
         🔗التجارب والشيتس والحلول :
@@ -1055,7 +1034,7 @@ export const subjectsInfo: Record<string, string> = {
 
         📌 روابط مهمة:
 
-        🔗فيديوهات :https://youtube.com/playlist...
+        🔗فيديوهات :https://youtube.com/playlist?list=PLS5lYxmsWH9fCEA00wMj5CbGUzlt_OyXz&si=3UMVG5liyv6WbxW2
 
         🔗 تجارب: https://engzenon.com/library/material/337?title=Experiments%20files%202024
 
