@@ -4,7 +4,9 @@ import { TELEGRAM_API } from "./app";
 import { categories, common, hardware, labs, network, software, subjectsInfo } from "./data";
 
 export async function getMessageFromTelegram(req: Request, res: Response) {
-    if(!req.body.message && !req.body.callback_query) return res.sendStatus(200);
+    res.sendStatus(200);
+
+    if(!req.body.message && !req.body.callback_query) return;
 
     if(req.body.message) {
         const message = req.body.message;
@@ -12,7 +14,7 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
         const text: string = message.text;
         
         if(!chatID || !text) {
-            return res.sendStatus(200);
+            return;
         }
         
         if(text === "/start" || text === "Back") {
@@ -27,7 +29,7 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
                    } 
                 });            
             } catch(err) {
-                return res.sendStatus(200);
+                return;
             }
         }
 
@@ -43,7 +45,7 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
                     }
                 });
             } catch(err) {
-                return res.sendStatus(200);
+                return;
             }
         } 
 
@@ -59,7 +61,7 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
                     }
                 });
             } catch(err) {
-                return res.sendStatus(200);
+                return;
             }
         }
 
@@ -75,7 +77,7 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
                     }
                 });
             } catch(err) {
-                return res.sendStatus(200);
+                return;
             }
         }
 
@@ -91,7 +93,7 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
                     }
                 });
             } catch(err) {
-                return res.sendStatus(200);
+                return;
             }
         }
 
@@ -107,7 +109,7 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
                     }
                 });
             } catch(err) {
-                return res.sendStatus(200);
+                return;
             }
 
         }
@@ -121,11 +123,9 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
                     text: subjectText
                 });
             } catch(err) {
-                return res.sendStatus(200);
+                return;
             }
         }
     }
-
-    return res.sendStatus(200);
     
 }
