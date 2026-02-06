@@ -3,7 +3,8 @@ export const categories = [
     ["Software"],
     ["Networks"],
     ["Common Subjects"],
-    ["Labs"]
+    ["Labs"],
+    ["مواد اختياريه"]
 ];
 
 export const hardware = [
@@ -56,7 +57,10 @@ export const common = [
     ["Back"]
 ];
 
-
+export const elective = [
+    ["Advanced Digital Design"],
+    ["Digital Image Processing"]
+]
 
 export const subjectsInfo: Record<string, string> = {
     Circuit: `
@@ -107,10 +111,7 @@ export const subjectsInfo: Record<string, string> = {
         لينكات بتلزمكم:
 
         كتاب المادة📖:
-        https://engzenon.com/library/material/402?title=Stephen%20J.%20Chapman%20-%20Electric%20Machinery%20Fundamentals-McGraw-Hill%20(2012)%20(1).pdf
-
-        الحلول :
-        https://engzenon.com/library/material/403...
+        https://engzenon.com/library/material/403?title=Machines%20CPE%20Textbooks%20%26%20Solutions
 
         شرح الدكتور لطفي من قسم الميكاترونكس📌:
         https://youtube.com/@lutfialsharif?si=0_cxKhCwejmM__O4
@@ -132,16 +133,9 @@ export const subjectsInfo: Record<string, string> = {
 
         ⁃ الكتاب المعتمد حاليا:
 
-        https://engzenon.com/library/material/1286...
+        https://engzenon.com/library/material/1287?title=Org%20Textbooks%20%26%20Solution%20Manuals
 
-        ⁃ حلول الكتاب :
-
-        https://engzenon.com/library/material/1287?title=Computer_Organization_and_Design_4th_Edition_by_David_Patterso%20solutionn
-
-        ⁃ سلايدات الدكتور إياد جعفر :
-        https://engzenon.com/library/material/1278?title=Dr%20Iyad%20slides%202024
-
-        - نوتس للدكتور وليد دويك :
+        ⁃ سلايدات :
         https://engzenon.com/library/material/342...
 
         ⁃ فيديوهات الدكتور إياد جعفر:
@@ -201,16 +195,13 @@ export const subjectsInfo: Record<string, string> = {
 
         📌نظام العلامات:
         30 ميد
-        20 على ريبورتين
+        15 على الريبورت و5 على نشاط في المحاضره
         50 فاينل
 
         ❓لينكات بتلزمكم:
 
         الكتاب :
-        https://engzenon.com/library/material/59...
-
-        حلول الكتاب:
-        https://engzenon.com/library/material/66...
+        https://engzenon.com/library/material/1444?title=Computer%20Design%20Textbooks%20%26%20Solutions%20
 
         ⁃ فيديوهات شرح للمهندس أسامة أبو حمدان 🎥 :
         https://youtube.com/playlist?list=PLh7mINmitSDVxt3hd7CEUEdo1QFnxjySs&si=CZmXa7nbsc5-dWBY&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEe1O1RJDStswPnxs6ro32nLvqM50DSfDlPkKf8HTvXqcxI_ka0GzOOqP7-TCw_aem_NvsCz3vMPmxT-lcD17mhwQ&sfnsn=wa
@@ -274,7 +265,7 @@ export const subjectsInfo: Record<string, string> = {
         بعدها رح ننتقل للParallel SW ونفهم كيف بنقدر نطبّق ال Parallelism
         ونعرف شو طرقها، بعدها رح ندخل بالجد ونتعرف عالopen mp وبعدها cuda وبنختم بجافا خفيفة اخر شي وكيف نطبّق فيها الmultithreading
 
-        كيف ادرس وأجيب A؟ ❓
+        كيف ادرس وأجيب A؟ 
         الامتحانات بتكون سهلة للي فاهم منيح ومتبّع مع الدكتور بيجي اسئلة Race condition كتيير وضروري نحل بايدنا الاسايمنتس وما نعتمد ع شات جي بي تي لانه بالامتحان بيجي ع نمطهم وبيجي نكتب كود كمان ومادة الفاينل بيجي اسئلة عدد منيح على مادة الميد فنثبّت الأساس صح من اولها مشان ما نتغلب لقدام
 
         📌لينكات بتلزمكم:
@@ -320,8 +311,6 @@ export const subjectsInfo: Record<string, string> = {
         📌لينكات بتلزمكم:
         سلايدات:
         https://engzenon.com/library/material/1284...
-
-        https://engzenon.com/library/material/1285?title=Self-Study%20Material
 
         - تسجيلات الكنترول للفصل الثاني ٢٠٢٤:
         https://t.me/+LazKBh14KsJmYjE0
@@ -371,8 +360,7 @@ export const subjectsInfo: Record<string, string> = {
 
         ⁃ فيديوهات مراجعة لموضوع ال objects & classes للمهندس أسامة حمدان 🎥 :
         Objects and classes part I : https://youtu.be/38YsQuu9zok
-        Objects and classes part II : https://youtu.be/CivVbOU2Ck4 
-        Objects and classes part III : https://youtu.be/nZksxs_`,
+        Objects and classes part II : https://youtu.be/CivVbOU2Ck4`,
     "Data Structures": `
         داتا ستركشرز || Data Structures
 
@@ -441,9 +429,6 @@ export const subjectsInfo: Record<string, string> = {
 
         💡 نصيحة: حاول تطبق الأمثلة أكثر من مرة، واعمل تجارب عملية عشان تتعمق بالمادة وتفهمها بشكل أكبر!
 
-        📌فيديوهات:
-        https://drive.google.com/drive/folders/1Ym3ewAGcctQZnyHqyFuhCSt4ScQbCY4u?usp=sharing
-
         📌سلايدات:
         https://engzenon.com/library/material/336?title=Slides%20Dr.Mohammad_AbdelMajeed
 
@@ -472,7 +457,7 @@ export const subjectsInfo: Record<string, string> = {
         https://youtube.com/playlist?list=PLKlTaCM87WvrO0RElCsK30uS-ylzRLgFM&si=I2ZYrfvR5tB3Jeqf
         https://youtube.com/playlist?list=PL0HDIDr4prB_FwprJ6s-SU4ksCGetPd2X&si=TV7lObGlxwUFNXOz
         كتاب:
-        https://engzenon.com/library/material/323...
+        https://engzenon.com/library/material/117?title=OS%20Textbooks%20%26%20Solution%20Manuals
 
         سلايدات المادة :
         https://engzenon.com/library/material/111...
@@ -488,10 +473,10 @@ export const subjectsInfo: Record<string, string> = {
         🔑 المواضيع الأساسية:
 
         المفاهيم الأساسية للشبكات: مثل عناوين الإنترنت وبروتوكولات الشبكات.
-        بروتوكولات UDP و TCP: وفهم كيفية عملها واستخدامها.
-        Input/Output Streams: كيفية التعامل مع إرسال واستقبال البيانات في التطبيقات الشبكية.
-        multithreaded programming: وكيفية التعامل مع تزامن الthreads لتشغيل أكثر من عملية في نفس الوقت.
-        تطبيقات بروتوكول HTTP: وكيفية عمل تطبيقات ويب.
+        بروتوكولات UDP و TCP وفهم كيفية عملها واستخدامها.
+         كيفية التعامل مع إرسال واستقبال البيانات في التطبيقات الشبكية.
+         وكيفية التعامل مع تزامن ال threads لتشغيل أكثر من عملية في نفس الوقت.
+        تطبيقات بروتوكول (HTTP) وكيفية عمل تطبيقات ويب.
 
         ❓ كيف أدرس المادة وأجيب A؟
         المادة مش صعبة، لكنها تراكمية والمواضيع بتعتمد على بعض بالفهم، لذلك متابعة المحاضرات و عدم المراكمة أول خطوة، ودراستها بتكون من خلال قراءة السلايدات وفهم كيفية عمل الكودات والأهم هو التطبيق باستمرار كونه المادة فيها عدد كبير من الأوامر الجديدة واللي بتحتاج تطبيق حتى يتم فهم كيفية عملها، مع حل نماذج سنوات قبل الامتحان
@@ -598,8 +583,8 @@ export const subjectsInfo: Record<string, string> = {
         السلايدات:
         https://engzenon.com/library/material/293...
         📌النوتس والدفاتر والسنوات بتلاقوهم على موقع زينون 👇🏻
-
         https://engzenon.com/library?filter=2
+
         ريكوردات دكتور رمزي سعيفان:
         https://t.me/+1rKsjEEUURJhNzE0`,     
     "Digital Logic": `
@@ -624,9 +609,7 @@ export const subjectsInfo: Record<string, string> = {
         وهي شوية لينكات بتلزمكم:
 
         لينك الكتاب :
-        https://engzenon.com/library/material/224...
-        لينك حلول الكتاب : 
-        https://engzenon.com/library/material/1066?title=Solutions%20Manuals%20Logic%20and%20Computer%20Design%205th%20Edition
+        https://engzenon.com/library/material/226?title=Digital%20Logic%20Textbooks%20%26%20Solution%20Manuals
 
         فيديوهات :
 
@@ -635,8 +618,8 @@ export const subjectsInfo: Record<string, string> = {
         فيديوهات المهندسة أسماء:
         https://youtube.com/playlist?list=PL8N0YNzPnFbSLPRQHFb7ig7Pogz4UQ9ss&si=E3YBBGhzy3bTJSOz
 
-        📃سنوات:
-        https://engzenon.com/library/material/1106?title=Digital%20Logic%20Exams%20First%20Mid%20Second%20Final`,
+        📌السنوات بتلاقوهم على موقع زينون 👇🏻
+        https://engzenon.com/library?filter=2`,
     "Electronics 1": `
         𝐄𝐥𝐞𝐜𝐭𝐫𝐨𝐧𝐢𝐜𝐬 𝟏 (الكترو)
 
@@ -661,18 +644,15 @@ export const subjectsInfo: Record<string, string> = {
         شوية لينكات بتلزمكم:
 
         لينك الكتاب:
-        https://engzenon.com/library/material/1153...
-        حلول الكتاب:
-        https://engzenon.com/library/material/1152...
-        السلايدات:
-        https://engzenon.com/library/material/1168...
-        https://engzenon.com/library/material/1177...
-        نوتس دكتور رعد:
-        https://engzenon.com/library/material/1186...
+        https://engzenon.com/library/material/1154?title=Electronics%201%20All%20Books%20
+
+        https://engzenon.com/library/material/1151?title=%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D9%85%D8%AF%20
+
         سنوات:
-        https://engzenon.com/library?filter=1
+        https://engzenon.com/library/material/1207?title=Electronics%201%20Past%20Papers%20
         فيديوهات:
         https://youtube.com/playlist?list=PLAS9eTwzbC3sXfmqtBN7r_8NZOjpG1MjG&si=7YUQQEVc62eMslLu
+        https://youtube.com/playlist?list=PLkXK5Ys6YkPJeYfEHo8Rei1dToH6hB5e1&si=7Vmozo641zxtrapt
         موقع المهندس حمد للمادة :
         https://your-guide-in-electronics1.streamlit.app/`,  
     "Signals": `
@@ -704,7 +684,7 @@ export const subjectsInfo: Record<string, string> = {
         حلول الكتاب:
         https://engzenon.com/library/material/1107?title=solutions%20lathi
         سنوات:
-        https://engzenon.com/library?filter=1
+        https://engzenon.com/library/material/1127?title=Signals%20Past%20Papers%20
         فيديوهات بتساعدكم :
         https://youtube.com/playlist?list=PLdL3o9rqPLb6pX0jukRtna5XE-1ZKPGCI&si=QOC0c-MH9q4vlIGR
         https://youtube.com/playlist?list=PLEt20mng0VEQ1dBPtMHBCDpUvu5NkOxu_&si=WIDWsLR6WslzKjRy`,
@@ -755,7 +735,7 @@ export const subjectsInfo: Record<string, string> = {
         تقسيمة العلامات :
         * التجارب والبري لاب : 15
         * السيرتفيكيت : 5
-        * الميد : 5
+        * الميد : 30
         * البروجيكت : 10
         * الفاينل :40
 
@@ -841,7 +821,6 @@ export const subjectsInfo: Record<string, string> = {
         - Proteus للسيميوليشن
         - PIC Microcontrollers
         - PIC Development Boards
-        - Oscilloscopes & Simulation Tools ورح نستعملها بالبروجيكت
 
         📌تقسيمة اللاب:
         - 10 تجارب تشمل السيميوليشن على protues وكتابة الكودات على mplab
@@ -893,7 +872,7 @@ export const subjectsInfo: Record<string, string> = {
 
         * ما في فيديوهات شرح، كل شيء بيعتمد عليك، يعني الدكتور/المهندسة بيشرحوا باللاب، بس أنت لازم تتذكر المعلومات وتعرف تطبق لحالك. أهم شيء تتعود تحل بسرعة.
 
-        * اللاب فيه 8 تجارب والتجارب طويلة وبتاخد وقت، فلازم تتحضر منيح لكل وحدة. وفيهم التالي:
+        * اللاب فيه 8 تجارب والتجارب طويلة وبتاخد وقت، فلازم تحضر منيح لكل وحدة. وفيهم التالي:
         - التجربة 1: مراجعة خصائص الـ NMOS و PMOS
         تجربة بسيطة، مجرد مراجعة لمعلومات الديجيتال عن كيفية عمل الـ transistors الأساسية (الـ NMOS و PMOS). سهلة نوعًا ما، وما فيها تعقيد كبير.
         - التجربة 2: تصميم الـ Inverter
@@ -926,14 +905,8 @@ export const subjectsInfo: Record<string, string> = {
         🔗 تنزيل برنامج الـelectric من:
         https://www.staticfreesoft.com/productsFree.html
 
-        🔗 فيديو لكيفية استعمال الـelectric:
-        https://shorturl.at/9H7jB
-
         🔗 فيديو شرح رسمة الـlayout للـ nand:
         https://www.youtube.com/watch?v=Jqj8VmS38fw
-
-        🔗 محاضرات سابقة لدكتور محمد عبدالمجيد:
-        https://shorturl.at/aeOKc
 
         🔗 اللاب شيتس بتلاقوهم عموقع زينون:
         https://engzenon.com/library/material/1342...`,    
@@ -956,9 +929,9 @@ export const subjectsInfo: Record<string, string> = {
         📌 روابط مهمة:
 
         🔗لينك تنزيل البرنامج :
-        https://drive.google.com/.../1Jss0ToiwfDk3Qi3r.../view...
+        https://drive.google.com/file/d/1Jss0ToiwfDk3Qi3r-6YWdYMCvjMcxVL0/view?usp=drive_link
 
-        🔗التجارب:https://engzenon.com/library/material/1355?title=lab%20design%20experiments%20%20
+        🔗التجارب:https://engzenon.com/library/material/51?title=Design%20Lab%20Experiments%20Fall%202016-2025
 
         🔗الحلول:https://engzenon.com/library/material/1356?title=lab%20design%20solutions
 
@@ -1001,13 +974,7 @@ export const subjectsInfo: Record<string, string> = {
         🔗 فيديوهات الدكتور أشرف الصياغ :
         https://youtube.com/playlist?list=PLTTbg17Aw5x2fiZ8i10lrYSp_e7Lft7kt&si=G33x09gp6M4zxAhI
 
-        🔗 تحميل MATLAB من موقع ماتلاب بنسخة مجانية للطلاب: (https://www.mathworks.com/academia/tah-portal.html)
-
-        🔗 شرح مادة اللاب:
-        https://engzenon.com/library/material/1340...
-
-        🔗 لاب شيتس سابقة للميد:
-        https://engzenon.com/library/material/1341...`,
+        🔗 تحميل MATLAB من موقع ماتلاب بنسخة مجانية للطلاب: (https://www.mathworks.com/academia/tah-portal.html)`,
     "Parallel Lab": `
         Parallel Processing Lab|مختبر المعالجات المتوازية
 
@@ -1058,5 +1025,7 @@ export const subjectsInfo: Record<string, string> = {
         🔗 تجارب: https://engzenon.com/library/material/337?title=Experiments%20files%202024
 
         🔗 السنوات بتلاقوهم على موقع زينون :
-        https://engzenon.com/library?filter=2`            
+        https://engzenon.com/library?filter=2`,
+        "Advanced Digital Design": `https://youtube.com/playlist?list=PLLgmXclU_qd4ZV0_KTvKc2AUy8YvNokpP&si=gzK_iiYqqBYzQPMV`,
+        "Digital Image Processing": `https://youtube.com/playlist?list=PLYZvx2jaKOWK9qxNTyKqMeLKPLD-e6Y4c&si=34JZHycaB51ZlI2r`
 }
