@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import axios from "axios";
 import { TELEGRAM_API } from "./app";
-import { categories, common, hardware, labs, network, software, subjectsInfo } from "./data";
+import { categories, common, elective, hardware, labs, network, software, subjectsInfo } from "./data";
 
 export async function getMessageFromTelegram(req: Request, res: Response) {
     res.sendStatus(200);
@@ -104,6 +104,23 @@ export async function getMessageFromTelegram(req: Request, res: Response) {
                     text,
                     reply_markup: {
                         keyboard: labs,
+                        resize_keyboard: true,
+                        one_time_keyboard: false
+                    }
+                });
+            } catch(err) {
+                return;
+            }
+
+        }
+
+        else if(text === "مواد اختياريه") {
+            try {
+                await axios.post(`${TELEGRAM_API}/sendMessage`, {
+                    chat_id: chatID,
+                    text,
+                    reply_markup: {
+                        keyboard: elective,
                         resize_keyboard: true,
                         one_time_keyboard: false
                     }

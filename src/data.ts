@@ -59,7 +59,8 @@ export const common = [
 
 export const elective = [
     ["Advanced Digital Design"],
-    ["Digital Image Processing"]
+    ["Digital Image Processing"],
+    ["Back"]
 ]
 
 export const subjectsInfo: Record<string, string> = {
