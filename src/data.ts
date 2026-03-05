@@ -26,7 +26,7 @@ export const labs = [
     ["Networks Lab"],
     ["Embedded Lab"],
     /*["Technical Writing"],*/
-    ["VLSI Lab"],
+    /*["VLSI Lab"],*/
     ["Design Lab"],
     ["Numerical Lab (MATLAB)"],
     ["Parallel Lab"],
