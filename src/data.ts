@@ -20,12 +20,12 @@ export const hardware = [
 ];
 
 export const labs = [
-    ["Logic Lab"],
+    /*["Logic Lab"],*/
     ["Python Lab"],
     ["Circuits Lab"],
     ["Networks Lab"],
     ["Embedded Lab"],
-    ["Technical Writing"],
+    /*["Technical Writing"],*/
     ["VLSI Lab"],
     ["Design Lab"],
     ["Numerical Lab (MATLAB)"],
@@ -39,7 +39,7 @@ export const software = [
     ["Data Structures"],
     ["AI & ML"],
     ["Operating Systems"],
-    ["Network Protocols"],
+    /*["Network Protocols"],*/
     ["Back"]
 ];
 
@@ -66,25 +66,6 @@ export const elective = [
 
 export const subjectsInfo: Record<string, string> = {
     Circuit: `
-        Circuit cpe | سيركت حاسوب 💻
-        بالبداية لازم نكون عارفين انه هي عبارة عن سيركت ١ من الكهربا وبداية سيركت ٢ .
-
-        بشكل عام المادة بتتمحور 📌
-        حول شرح مكونات الدارات الكهربائية وكيفية تحليل الدارات الكهربائية بإستخدام قوانين عديدة مثل قانون أوم وكيرتشوف، وطرق توصيل الدارات ان كان التوصيل على التوالي او التوازي، وعن الجهد والتيار، وطرق التحليل باستخدام ال Mesh & Nodal analysis و طريقتي Thevenin’s & Norton’s ، وطبيعة المكثفات والمحثات📚.
-
-        ❓ كيف أدرس المادة واجيب A
-        لازم تكتبوا مع الدكتورة كل اشي بتحكيه، وتركزوا على اسئلتها وعلى كل اشي بتنزله وتحلوه، بالعادة الامتحانات ما بتطلع عن اللي بنشرح ابدا.
-
-        📌لينكات بتلزمكم:
-
-        الكتاب:
-        https://engzenon.com/library/material/250?title=Fundamentals%20of%20Electrical%20Engineering%20by%20Giorgio%20Rizzoni%20(1)
-
-        السلايدات:
-        https://engzenon.com/library/material/243...
-
-        فيديوهات:
-
         محاضرات الدكتورة سيرين
         http://bit.ly/3VNtIZi
 
@@ -94,117 +75,23 @@ export const subjectsInfo: Record<string, string> = {
         https://youtube.com/playlist?list=PLFM6wDAJoh--qm9UD3VatCBeGJaPGlLK6&si=FznVXanX24ipWh0U
 
         - سيركت 2 -
-    https://youtube.com/playlist?list=PLFM6wDAJoh-88gjdMrSJ28aPkw2-9uR6f&si=aQQMeOgni210emNb
-
-        وبتلاقوا باقي المصادر من سنوات ودفاتر على موقع زينون👇🏻
-
-        https://engzenon.com/library?filter=2`,
+    https://youtube.com/playlist?list=PLFM6wDAJoh-88gjdMrSJ28aPkw2-9uR6f&si=aQQMeOgni210emNb`,
     Machines: `
-        Machines | الآلات الكهربائية💻
-
-        من المواد المهمة و المتخصصة في الmotors وأنواعها
-        -بداية المادة بتحكي عن أساسيات المغناطيسية
-        والtransformer
-        وباقي المادة بيعرض أنواع المحركات الكهربائية من حيث مبدأ عملها وحسابات خفيفة على كل نوع..
-
-        ❓كيف ادرس المادة واجيب A
-        مهم كتير نحل اسئلة الكتاب ونركز عليها لانه بيجي منها، والاهم المتابعة مع الدكتور
-
-        لينكات بتلزمكم:
-
-        كتاب المادة📖:
-        https://engzenon.com/library/material/403?title=Machines%20CPE%20Textbooks%20%26%20Solutions
-
         شرح الدكتور لطفي من قسم الميكاترونكس📌:
-        https://youtube.com/@lutfialsharif?si=0_cxKhCwejmM__O4
-
-        وباقي المصادر بتلاقوهم على موقع زينون👇🏻
-        https://engzenon.com/library?filter=2`,
+        https://youtube.com/@lutfialsharif?si=0_cxKhCwejmM__O4`,
     Organization: `
-        معمارية وتنظيم الحاسوب || Org1
-
-        ⁃ بتبدأ المادّة بتعريف الكمبيوتر بشكل عام وكيف تقارن بين الأجهزة وتشوف مين أفضل، بعدين بننتقل لمقدّمة في لغة الأسمبلي RISC-V، و هاد الموضوع كثير مهمّ لفِهم المادّة.
-
-        ⁃ بعدين بتتناول مواضيع بتتعلّق بالعمليّات الحسابيّة البسيطة لمعرفة ال performance وموضوع صناعة ال CPUs، بينعطى فيها ال single cycle implementation وال multi-cycle implementation ومقدمه عن ال pipelining
-
-        كيف أدرس المادّة وأجيب A?
-
-        ⁃ المادّة ممتعة جدا، بس لازم أول بأول وتفهموا المواضيع منيح عشان بدها ربط واستنتاج، فمش لازم تتراكم، وحاولوا تدربوا قبل ما تروحوا الامتحان وتكونوا متمكنين من المادة.
-
-        📌لينكات بتلزمكم:
-
-        ⁃ الكتاب المعتمد حاليا:
-
-        https://engzenon.com/library/material/1287?title=Org%20Textbooks%20%26%20Solution%20Manuals
-
-        ⁃ سلايدات :
-        https://engzenon.com/library/material/342...
-
         ⁃ فيديوهات الدكتور إياد جعفر:
         https://youtube.com/playlist?list=PLYZvx2jaKOWLSSwpg71fnX--At6ydK5xA&si=p-2menLhsLo2w3EX
         ⁃ فيديوهات الدكتور وليد الدويك :
         https://youtube.com/playlist?list=PLW8LsvfW6Nn_j2iWsx8subcjgfADQRyI-&si=Y_O9Ek6QU_meqpA9&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEe2joT4nEOtRmBPHxgEWOBposVl2x9My4U3yr-Tabfkoc1VO5AmTAi0p65-xE_aem_qlGCM3-dqyBp6nLsSos2_A&sfnsn=wa
-        📌وبتلاقوا باقي المصادر على موقع زينون:
-        https://engzenon.com/library?filter=2`,        
+       `,        
     Embedded: `
-        الأنظمة_المضمنة (المدمجة) " Embedded System "💻
-
-        بالبداية المادة مكونة من 11 شابتر بتضم المواضيع التالية :
-
-        ☑ المادة بتحكي اولها عن هاي الانظمة بشكل عام وبتحكي عن الجزء الاهم وهو المتحكم الي في النظام و منتعرف على مثال وهو ال pic16f84 .
-
-        ☑ ثانيا بتنتقل للجزء السوفت وير (البرمجية) لهاد المتحكم ⬅ وهي الاسمبلي ، مناخد اساسيات البرمجية وامثلة متنوعة.
-
-        ☑ ثالثا مناخد عن الهاردوير (القطع الصلبة) للمتحكم ⬅ مكوناته الصلبة وكيف نشبك مجموعة من ال inputs وال outputs معه لنكمل نظام متكامل
-
-        ☑ واخيراً ، بتبلش المادة تعطي امثلة معقدة اكتر شوي ، زي كيف تشبك motor وتتحكم فيه ، او keypad وتقرا منها ..
-
-        📌نظام العلامات:
-        30 ميد
-        50 فاينل
-        10 ريبورت
-        10 مشروع
-
-        ❓كيف ادرس واجيب A
-        ضروري نكتب مع الدكتور كل كلمة بيحكيها ونتبّع أول بأول معه ونفهم الAssembly والبرامج كيف ماشية وما نستتفه التسلسل الّي ماشي فيه الدكتور والتدريج ونحلّ التمارين الّي بينشزهم تيمز "عن فهم " ونطبق بإيدنا ع mplab أول بأول وندقق بكل التفاصيل الّي بيحكيها الدكتور
-
-        📗 لينك الكتاب :
-        https://engzenon.com/library/material/127...
-        السلايدات:
-        https://engzenon.com/library/material/133...
         فيديوهات دكتور إياد:
         https://youtube.com/playlist?list=PLYZvx2jaKOWLUQIOU2EPAAs8S6FO6Z1bG&si=VupH2rcSU0Y6G4tS
         فيديوهات د أشرف:
         https://youtube.com/playlist?list=PLTTbg17Aw5x0uYyo_4ohjrpmVfx05r9J5&si=JKhQaIGfeRdqMBOx
-        https://youtube.com/playlist?list=PLTTbg17Aw5x2o2z0nvf4N0OIj6p3jchIU&si=HRE60DYZTos827MI
-
-        وباقي المصادر من سنوات ونوتس ودفاتر بتلاقوهم على موقع زينون👇🏻
-        https://engzenon.com/library?filter=2`,
+        https://youtube.com/playlist?list=PLTTbg17Aw5x2o2z0nvf4N0OIj6p3jchIU&si=HRE60DYZTos827MI`,
     Design: `
-        💻تصميم الحاسوب || design
-
-        ⁃ بتبدأ المادة بتكملة للّي أخذناه بال Org وخاصّةً موضوع ال Techonology Trend ومجموعة حسابات لل performance.
-
-        ⁃ بعديها بنتعمّق أكثر بموضوع الpipeline وعن المشاكل إلّي ممكن تصير ( Hazards ) وطرق حلّها.
-
-        ⁃ بعد هيك بننتقل لأنواع الميموري، وبتفصيل أكثر عن ال RAM والCashe، وطرق التخزين فيها وشو المشاكل الممكن تصير فيها، وبنوخد بعض ال Smart Stategies لحلّ مشكلة بطء ال RAM مقارنة مع المعالج والّي بتأخّر عمليّة ال Fetching لل New instruction وبتخلّي ال Processor بالحالة المثاليّة. هاي الشغلات بتغنيك عن كلّ الطرق إلّي أخذناها بال Org.
-
-        ⁃ بعدين بننتقل لموضوع ال Virtual Memory وشرح مفصّل عنها ولإيش استخدامها، وموضوع ال RAID و Parallel لإنّها ال Trend.
-
-        ❓كيف أدرس المادة وأجيب A؟
-        ⁃ المادّة كثير مفيدة وما لازم نتركها لقبل الامتحان بفترة.
-        وبدها متابعة وخصوصاً مادّة الميد عشان فيها أفكار كثيرة.
-
-        📌نظام العلامات:
-        30 ميد
-        15 على الريبورت و5 على نشاط في المحاضره
-        50 فاينل
-
-        ❓لينكات بتلزمكم:
-
-        الكتاب :
-        https://engzenon.com/library/material/1444?title=Computer%20Design%20Textbooks%20%26%20Solutions%20
-
         ⁃ فيديوهات شرح للمهندس أسامة أبو حمدان 🎥 :
         https://youtube.com/playlist?list=PLh7mINmitSDVxt3hd7CEUEdo1QFnxjySs&si=CZmXa7nbsc5-dWBY&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEe1O1RJDStswPnxs6ro32nLvqM50DSfDlPkKf8HTvXqcxI_ka0GzOOqP7-TCw_aem_NvsCz3vMPmxT-lcD17mhwQ&sfnsn=wa
 
@@ -216,836 +103,83 @@ export const subjectsInfo: Record<string, string> = {
         https://youtube.com/playlist?list=PLW8LsvfW6Nn8fBUlkCWMHHY8s16c2ggWZ&si=olhhUxqJ4Ha1vQSF&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEeyvvFRirTIsZ1trmY48ip5YaVKUsBJO5X22hVefNNJ_KGy2SJH1hgozGgfIM_aem_B6-W2vaOgEirpiB9HAfdvw&sfnsn=wa
 
         فيديوهات الدكتور أشرف:
-        https://youtube.com/playlist?list=PLTTbg17Aw5x1SH2dMFsZirIVObF9KyOhn&si=HJZPhqrtU0Zbw7Nz
-        https://youtube.com/playlist?list=PLTTbg17Aw5x2sVifHfYLQnUqCTwodgK53&si=56nO_sEVEGKM3Z32
-
-        وبتلاقوا باقي المصادر على موقع
-        زينون:
-        https://engzenon.com/library?filter=2`,    
+        -https://youtube.com/playlist?list=PLTTbg17Aw5x1SH2dMFsZirIVObF9KyOhn&si=HJZPhqrtU0Zbw7Nz
+        -https://youtube.com/playlist?list=PLTTbg17Aw5x2sVifHfYLQnUqCTwodgK53&si=56nO_sEVEGKM3Z32`,    
     VLSI: `
-        💻 ديجيتال الكترونكس | VlSI
-
-        مادة ممتعة وإذا عجبتك ممكن تكمل فيها وتشتغل بالمجال. المادة تمثّل المرحلة بعد الـ Digital Design الي أخذناه في Logic وorg، بندرس كيف بتم تمثيل الـ Logic Gates باستخدام ال transistors، وتأثير التصميم على الـ Delay والـ Power Consumption، وبندرس عملية تصنيع الترانزستورات (Fabrication) وكيف بينتج الـ IC بالنهاية.
-
-        الدكتور محمد عبد المجيد بدخل في دوائر الـ MOSFET وتحليلها، وبعد ذلك بنتقل لموضوع تصميم الـ Logic Gates. أما الدكتور هاني، فبيبدأ بمراجعة سريعه للـ MOSFET وللـ BJT وبشرح التصاميم القديمة المعتمدة على الـ BJT، وبعدها بشرح التصاميم الحديثة المعتمده على الـ MOSFET. لو نزلت الماده مع الدكتور هاني يفضل إنك تعمل مراجعه سريعه لمادة الفاينل من الكترونيات 1 
-
-        📌نظام العلامات:
-        30 ميد
-        20 أساينمنتس
-        50 الفاينال
-
-        📌لينكات بتلزمكم:
-
-        -الكتاب:
-        https://engzenon.com/library/material/103...
-
         فيديوهات شرح الدكتور محمد عبد المجيد:
         https://youtube.com/playlist?list=PLLgmXclU_qd67DOeh1QYlQDd4dtdTpkBA&si=BwgmqHz16kXAyFzq
 
 فيديوهات بتغطي تصاميم ال BJT:
-        https://youtube.com/playlist?list=PL9fwy3NUQKwaZgUE02hmS5fI0wHk77Q86&si=20XyTuoyJVRYgYOr
-
-        ⁃ لينك تنزيل البرنامج Ltspice :
-        https://softfamous.com/ltspice/
-
-        وباقي المصادر من سنوات وغيره بتلاقوه على موقع زينون:
-
-        https://engzenon.com/library?filter=2`,
+        https://youtube.com/playlist?list=PL9fwy3NUQKwaZgUE02hmS5fI0wHk77Q86&si=20XyTuoyJVRYgYOr`,
     Parallel: `
-        Parallel 💻
-
-        بالبداية رح نبلّش ناخد نظرة عامّة عن الParallel Hardware ونرسّخ كونسيبتس مهمة لقدام متل معنى Race condition والSynchronization وفائدتها وطرقها ومتى لازم نعملها
-
-        بعدها رح ننتقل للParallel SW ونفهم كيف بنقدر نطبّق ال Parallelism
-        ونعرف شو طرقها، بعدها رح ندخل بالجد ونتعرف عالopen mp وبعدها cuda وبنختم بجافا خفيفة اخر شي وكيف نطبّق فيها الmultithreading
-
-        كيف ادرس وأجيب A؟ 
-        الامتحانات بتكون سهلة للي فاهم منيح ومتبّع مع الدكتور بيجي اسئلة Race condition كتيير وضروري نحل بايدنا الاسايمنتس وما نعتمد ع شات جي بي تي لانه بالامتحان بيجي ع نمطهم وبيجي نكتب كود كمان ومادة الفاينل بيجي اسئلة عدد منيح على مادة الميد فنثبّت الأساس صح من اولها مشان ما نتغلب لقدام
-
-        📌لينكات بتلزمكم:
-        كتاب:
-        https://engzenon.com/library/material/121...
-        سلايدات:
-        https://engzenon.com/library/material/252...
-        فيديوهات:
         https://drive.google.com/drive/mobile/folders/1k5PdnE2doatiMaxLYQVRww4wTsXECEdC?usp=sharing&fbclid=IwdGRzaAPxVrtjbGNrA_FWsmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHlOAljEZCiTgRmujMJGrlDMjRbv10o74He1G0QnRA-4_IJt3FRtTBMT_qIHN_aem_moQPQ0Q-80QdIsZc2Xguww&sfnsn=wa
-        وباقي المصادر بتلاقوهم على موقع زينون :
-        https://engzenon.com/library?filter=2`,
+        `,
     Control: `
-        Control Systems 💻
-
-        بالبداية تعلمنا بالامبيديد عن تصميم الأنظمة المضمنة وهي أنظمة حاسوبية تنفذ مهمات محددة بأجهزة كبيرة مثل السيارات والأجهزة الطبية وغيرها ،هلا بالكنترول رح نتعلم عن الأنظمة الي بتدير، بتوجه وتضبط عمل الأجهزة أو الأنظمة المختلفة ، وأنظمة التحكم تستخدم الأنظمة المضمنة كأداة عشان تنفذ مهمات تنطلب منها ،فممكن تحكوا انتقلنا من
-        مرحلة التصميم لمرحلة الإدارة .
-        المادة فيها 6 تشابترات وملفات إضافية ممكن يطلب منكم الدكتور تدرسوها بجانب السلايدات ،الملفات الإضافية هي محتويات الشهادات (بكون التركيز على شهادة الsimukink عشان بيجي منها اسئلة بامتحان الميد والفاينل بكون التركيز على الشهادة الرابعة ) وملف إضافي عن الAnalog to digital converter والsampling
-
-        اول تشابتر بعطي زي مقدمة عن تعريف تاريخ علم التحكم ،وعن وجود مبدأ التحكم من قديم الأزمان ، وكيف تطورت الأنظمة مع مرور الزمن وتحكي عن الopen and closed loop control systems
-        ومبدأ كل واحد منهم والاختلاف ما بينهم من ناحية الfeedback وجوده أو عدمه ،وبحكي عن الشروط الاساسية الي لازم تكون موجودة بأي نظام.
-        بتشابتر ٢ رح تحكوا عن الSystem modeling وهو بكون عبارة عن وصف الطبيعة والعمل للنظام والأنظمة الفرعية من خلال معادلات رياضية مشتقة من دراسات وأبحاث.
-        ورح تتعرفوا على برنامج الsimukink بكون موجود ضمن الماتلاب عشان تمثلوا المعادلات والأنظمة.
-        وتشابتر ٣ بحكي عن كيفية تبسيط معادلات أنظمة التحكم لشكل أبسط , وبتم تمثيل الأنظمة على الsimulink باستخدام الblocks.
-
-        وتشابتر ٤ بحكي عن الTime response
-        وهو بكون كيف النظام عم بتفاعل أو بستجيب لinput معين أنت تعطيه إياه .
-
-        وتشابتر ٥ عن الsteady state errors
-        الي ممكن نحكي عنه انه بكون الفرق بين الinput والoutput لما الوقت بيوصل عندنا للمالانهاية ..
-
-        وتشابتر ٦ بتحكوا عن الPID Controller وأنواع المتحكمات الي قبله
-
-        ❓كيف ادرس واجيب A?
-        مهم كتيرنتابع مع الدكتور أول بأول ونطبق على الماتلاب، لأنه بيجي بالميد اسئلة تطبيق، ومهم نركز على الشهادات لانه بيجي منهم بالامتحانات..
-
-        📌 نظام العلامات :
-
-        ٢٢ علامة على ٤ شهادات بطلبهم من موقع الماتلاب (mathworks)
-        ٨ علامات على تقرير أخلاقي
-        ٣٠ ميد
-        ٤٠ فاينل
-
-        📌لينكات بتلزمكم:
-        سلايدات:
-        https://engzenon.com/library/material/1284...
-
         - تسجيلات الكنترول للفصل الثاني ٢٠٢٤:
         https://t.me/+LazKBh14KsJmYjE0
         - فيديوهات شرح الدكتور أشرف للمادة ،تقريبا أول ٣ تشابترات ،آخر ٦ فيديوهات على الموقع هي الي الها دخل بمادتنا ( من عند الفيديو الي اسمه Introduction to control systems) :
-        https://drsuyyagh.com/courses/cpe533-rtcc-real-time-computer-control/
-
-        6-تلخيص للشهادات:(أول شهادة ما الها تلخيص لأنه الدكتور بنزل الها sheets وشهادة الsimscape ما الها لانه الدكتور ما بسأل عنها بالامتحانات ):
-        1-مادة Simulink Onramp:
-        https://drive.google.com/file/d/1H6c8bYziz7Mhm_zwDyqwHYlPyawmu_mp/view?fbclid=IwdGRzaAPxWQ5jbGNrA_FZCGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHjtFmBy0qCv17G6I9aWteL7FjTsNPsJDm9F7oir2qGTVxmNu0QfG5k1IQbNh_aem_yIg_4a65PdPHj2hpw5aTxA&sfnsn=wa        
-        2-
-        مادة Conrtol Onramp (PID controller design):
-        https://drive.google.com/file/d/1GX4GjEowx3Nos1a0tWDqrFtS_8NaMEQq/view?fbclid=IwdGRzaAPxWUBjbGNrA_FZO2V4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHssCesD1_bmaFAkNr6AIFOrqgcW-W9FWwxE82tbKY-uFUSygv420AHGBM79q_aem_MHs3N55Ey3tPNBvdJYOSeA&sfnsn=wa        
-        3-
-        ✅ مادة PID Controller ، مع شرح الفيديوهات الي شرحها الدكتور:
-        https://drive.google.com/file/d/1IRGAnPnkgGz9lou2adMaGSm30Z2G9TKn/view?fbclid=IwdGRzaAPxWXNjbGNrA_FZb2V4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHlT4j35d2kPyQaXasLbQjNMgikkV2rzMZ_or-tRe7JI-CDp-Pw-2FFXj3r3h_aem_k2Wbl3OGz7MIrV_eYKUR3A&sfnsn=wa`,
+        https://drsuyyagh.com/courses/cpe533-rtcc-real-time-computer-control/`,
     Java: `
-        OOP|| JAVA
-
-        ⁃ مادة برمجة بحتة بتتعمق معكم في أحد أهم مفاهيم البرمجة وهي الobjects & classes.
-
-        ⁃ في بداية المادة بتراجعلكم المهندسة بعض المفاهيم وأساسيات البرمجة مثل الvariables والif statements وأوامر الloops، واللي درستوهم أصلًا في مادة الc++ ولكن بلغة الجافا.
-
-        ⁃ بعد هاي المقدمة بنبدأ بمفهوم الobjects & classes وراح تشوفوا تشابه في أساسيات هذا الموضوع اللي درستوها في مادة الc++، ومع الوقت راح تتعمقوا أكثر في الموضوع فبتتعلموا كيف تنشؤوا الclasses الخاصة فيكم وتعملوا منها objects وبعد هيك بتتعلموا كيف تعملوا أجيال من هاي الclasses في مفهوم الinheritance والpolymorphism بالإضافة لمفهوم الinterface وشو علاقتهم ببعض .
-        ⁃ بعد هيك بننتقل لموضوع الerrors اللي بتواجهنا خلال تنفيذ الكود وكيف نعمل handling لهاي الexceptions.
-
-        ⁃ وفي نهاية الفصل بتتعلموا مقدمة بسيطة عن الGUI وكيف تزبطوا برنامجكم ليظهر بشكل لطيف.
-
-        كيف أدرس المادّة وأجيب A?
-
-        أهم اشي بالمادة هي المتابعة والتطبيق المستمر لأي كود جديد بتتعلموه من الواجبات و اللابات.
-        وخصصوا وقت منيح للمادة مو أقل من يومين بالاسبوع لتضلكم متابعين أول بأول ويسهل فهم المواضيع الجديدة.
-
-        - مهم جدا جدا تحلوا تست بانك لتقدروا تقيّموا مستواكم و سرعتكم عشان لا تنعجقوا بالوقت
-
-        📌نظام المادة:
-        المادة فيها فيديو بنزل كل خميس غير المحاضرات الوجاهية أحد وثلاثاء، بالإضافة لفيديو اللاب بنزل يوم الجمعة، وكل اسبوع في لاب ولاب شيت لازم تسلموا حلها باللاب، واسايمنت باستمرار (تقريبا كل اسبوع او اسبوعين)، وبالإضافة لكويز كل أسبوع تقريبا وبالتالي المادة ما بتتحمل مراكمة أبدًا، وضروري تطبقوا كل إشي بإيدكم بدون نقل.
-
-        📌لينكات بتلزمكم:
-        كتاب المادة :
-        https://engzenon.com/library/material/215...
-
-        ⁃ سلايدات المادة للمهندسة أسماء عبد الكريم :
-        https://engzenon.com/library/material/1273?title=Java_Slides
-
-        وبتلاقوا السنوات والكويزات والتجارب وحلولها على موقع زينون:
-        https://engzenon.com/library?filter=2
-
-        ⁃ فيديوهات مراجعة لموضوع ال objects & classes للمهندس أسامة حمدان 🎥 :
-        Objects and classes part I : https://youtu.be/38YsQuu9zok
-        Objects and classes part II : https://youtu.be/CivVbOU2Ck4`,
+        https://youtube.com/playlist?list=PL5vGRHZZOTskMB1cETxrHPBsyHyyePUMb&si=7P2zJtuORbGZyEx8`,
     "Data Structures": `
-        داتا ستركشرز || Data Structures
-
-        ⁃ هي مادة من أهم مواد البرمجة يلي لازم الطالب يتقنها لانه فيها مواضيع متقدمة، أساس المادة هي لغة الجافا
-
-        ⁃ في بداية المادة بتصير تعمل analysis للكود وتحدد execution time و memory usage
-
-        ⁃ بعديها راح توخذ مفهومين Stack و Queues ولازم تعرف تفرق بينهم وتعرف مبدأ عمل كل وحدة فيهم
-
-        ⁃ وبعد هيك بتنتقل لموضوع Sorting وانه كيف تعمل sort بعدة طرق وبكل طريقة بدك تحسب Execution time و memory usage
-
-        ⁃ وبآخر المادة بتحكي عن الGraph يلي عليها كتير أبليكيشنز بحياتنا وأهمها هو الانترنت انه كيف بوصل للناس بحيث بوخد أقصر path ليحقق الوصول
-
-        📌نظام المادة:
-        كويز قبل الميد من ١٠
-        الميد ٣٠
-        كويز بعد الميد من ١٠
-        والفاينل ٥٠
-
-        📌لينكات بتلزمكم :
-
-        ⁃ الكتاب:
-        https://engzenon.com/library/material/229?title=Algorithms_4th_Robert_Sedgewick,_Kevin_Wayne
-
-        ⁃ سلايدات المادة 🗒
-        https://engzenon.com/library/material/228...
-
-        - باقي المصادر من سنوات وملخصات بتلاقوهم على موقع زينون:
-        https://engzenon.com/library?filter=2
-
         ⁃ فيديوهات دكتور رمزي سعيفان عاليوتيوب:
 
-        https://youtube.com/playlist?list=PLBWZnKTN_pVTCZeABChwc31I3WyBjvou-&si=HZDTgNELNzUjpjKr&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEecYWIh-Kp0wsRZW_JA7kyaQbXiprMoaFHrpSCOUm_-8VfO_UHh1cSyfBLfjE_aem_WIHxqsF1__hI8IysM4BwJw&sfnsn=wa
-        https://youtube.com/playlist?list=PLS5lYxmsWH9ewYlvla36aMngVxpHLJZJA&si=YBTeLLsRq2aeR0JJ
+        -https://youtube.com/playlist?list=PLBWZnKTN_pVTCZeABChwc31I3WyBjvou-&si=HZDTgNELNzUjpjKr&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEecYWIh-Kp0wsRZW_JA7kyaQbXiprMoaFHrpSCOUm_-8VfO_UHh1cSyfBLfjE_aem_WIHxqsF1__hI8IysM4BwJw&sfnsn=wa
+        -https://youtube.com/playlist?list=PLS5lYxmsWH9ewYlvla36aMngVxpHLJZJA&si=YBTeLLsRq2aeR0JJ
 
         ⁃ فيديوهات عادل نسيم عاليوتيوب:
         https://youtube.com/playlist?list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&si=w-zU7bCCu_T0kjs9`,   
     "AI & ML": `
-        AI💻
-
-        🔍 تفاصيل المادة:
-
-        • نظرة عامة على الذكاء الاصطناعي (Artificial Intelligence): مفهوم الذكاء الاصطناعي وتطبيقاته بحياتنا اليومية.
-        • مقدمة في تعلم الآلة (Machine Learning): شو هو تعلم الآلة؟ ليش بنستخدمه؟ شو أنواعه؟ وأهم التحديات اللي بنواجهها.
-        • تطبيق عملي شامل (End-to-End Application): رح تبني وتدرب موديل ذكاء اصطناعي من الصفر مع شرح كل التفاصيل.
-        • التعلم بالإشراف (Supervised Learning): الفرق بين التنبؤ (Regression) والتصنيف (Classification) مع أمثلة وتطبيقات عملية.
-        • أنواع نماذج تعلم الآلة: مثل SVM, Decision Trees, Random Forest، وشرح كيفية عمل كل واحد منهم وتطبيقاته.
-        • التعلم بدون إشراف (Unsupervised Learning): أمثلة عملية على النماذج بدون إشراف وتطبيقاتها.
-        • الشبكات العصبية (Neural Networks): مكوناتها، مراحل تطورها، وكيف نستخدمها بالواقع العملي.
-        • التنبؤ (Regression) والتصنيف (Classification) باستخدام الشبكات العصبية.
-        • الشبكات العصبية العميقة (Deep Learning): أبرز المشاكل اللي بتواجهها أثناء التدريب وحلولها.
-        • الرؤية الحاسوبية (Computer Vision): أنواعها وتطبيقاتها بحياتنا.
-        • CNN (الشبكات العصبية الملتفة ): شرح كيف بتشتغل وطبقاتها المختلفة.
-        • إعادة تدريب النماذج (Fine Tuning & Transfer Learning): كيف نستخدم النماذج المدربة مسبقاً وندربها على بيانات جديدة للحصول على نتائج دقيقة باستخدام أقل الإمكانيات.
-        📚 الواجبات والتقييمات:
-        • واجبين خلال الفصل، كل واحد عليه 5 علامات، وبتقدر تشتغل عليهم لحالك أو مع زميل.
-        • كويز من 5 علامات بآخر الفصل.
-        • شهادة أونلاين عليها 5 علامات.
-        • مشروع نهائي، المناقشة مع الدكتور مهمة كتير، وبركز على إنك تكون فاهم كل اللي عامله، مش جايب مشروع جاهز من النت ومش فاهم الكود.
-        • المادة فيها ميد وفاينل، الميد عليه 30 علامة، والفاينل عليه 40 علامة، والامتحانات على شكل notebook، فيها أسئلة نظرية وبرمجية (الأغلب برمجة)، عشان هيك التطبيق العملي ضروري وتكرار الأمثلة مهم جداً.
-
-        📝 كيفية دراسة المادة:
-        • الكتاب هو المصدر الأساسي للمادة، السلايدات تبعت الدكتور مأخوذة من الكتاب، والكتاب كتير مرتب وبإمكانك تعتمد عليه، خصوصاً إنه الفصل طويل. السلايدات كافية تقريباً للدراسة للامتحانات (نصيحة خذ نظرة على الكتاب مع كل موضوع جديد).
-        • شرح الدكتور ممتاز، في حال حضرت كل محاضراته وركزت معه، رح يكون شرحه كافي، لكن مهم تسأل عن أي إشي ما فهمته.
-        • notebooks مهمة جداً، لازم تشوف النوتبوكس لكل شابتر، تقرأ الكود وتتأكد إنك فاهم الأساسيات لبناء الموديل وأنواعه المختلفة، لأنه مهم للميد والفاينل.
-
-        💡 نصيحة: حاول تطبق الأمثلة أكثر من مرة، واعمل تجارب عملية عشان تتعمق بالمادة وتفهمها بشكل أكبر!
-
-        📌سلايدات:
-        https://engzenon.com/library/material/336?title=Slides%20Dr.Mohammad_AbdelMajeed
-
-        📌كتاب:
-
-        https://engzenon.com/library/material/15...
-
-        وباقي المصادر من سنوات وملخصات بتلاقوهم على موقع زينون:
-        https://engzenon.com/library?filter=2
-
-        وممكن تشوفوا هاد البوست بفيدكم:
         https://www.facebook.com/share/p/1D3pMg2rs6/?`, 
     "Operating Systems": `
-        OS|أنظمة التشغيل الحديثة 💻
-        
-        بالبداية بأول شابتر بنبلّش تعريف بالcomputer structure وشو دور الOs وشو انواع الكونترولرز بشكل خفيف وكيف بيتعامل الOS وشو مفهوم البيوس والكيرنال وبعدها بننتقل للServices الّي بيقدمها الOS وبنفهم شو الSystem calls ومفهوم الProcesses وبعدها الSheduling لهادي الprocesses على الCPU وشو مفهوم الThreads والموديلز الخاصّة فيها ومشاكل بنواجهها بالThreading بنختم بالSynchronization والDeadlocks وشوية مفاهيم عن الMain memory والmanagment
-المادة متوسطّة وبننصحكم ترجعوا للكتاب وتحلوا اسئلته وتقرأوا منه لتعمقوا فهمكم وتقدروا تجاوبوا بالامتحان 🌻
-
-        📌تقسيمة العلامات:
-        ٣٠ ميد
-        ٥٠ فاينال
-        ٢٠ اساينمنت/بروجيكت
-
-        📌فيديوهات بتساعدكم:
-        https://youtube.com/playlist?list=PLKlTaCM87WvrO0RElCsK30uS-ylzRLgFM&si=I2ZYrfvR5tB3Jeqf
-        https://youtube.com/playlist?list=PL0HDIDr4prB_FwprJ6s-SU4ksCGetPd2X&si=TV7lObGlxwUFNXOz
-        كتاب:
-        https://engzenon.com/library/material/117?title=OS%20Textbooks%20%26%20Solution%20Manuals
-
-        سلايدات المادة :
-        https://engzenon.com/library/material/111...
-
-        📌وباقي المصادر من سنوات وغيره بتلاقوهم على موقع زينون:
-
-        https://engzenon.com/library?filter=2`,     
-    "Network Protocols": `
-        NP💻
-
-        المادة تعتبر من أساسيات تخصص هندسة الحاسوب، واللي بتركز على كيفية التعامل مع الشبكات والبروتوكولات باستخدام لغة جافا. من خلال المادة، بتتعلم كيف تبني تطبيقات شبكية معقدة على مستوى الUser والServer باستخدام networking APIs في جافا.
-
-        🔑 المواضيع الأساسية:
-
-        المفاهيم الأساسية للشبكات: مثل عناوين الإنترنت وبروتوكولات الشبكات.
-        بروتوكولات UDP و TCP وفهم كيفية عملها واستخدامها.
-         كيفية التعامل مع إرسال واستقبال البيانات في التطبيقات الشبكية.
-         وكيفية التعامل مع تزامن ال threads لتشغيل أكثر من عملية في نفس الوقت.
-        تطبيقات بروتوكول (HTTP) وكيفية عمل تطبيقات ويب.
-
-        ❓ كيف أدرس المادة وأجيب A؟
-        المادة مش صعبة، لكنها تراكمية والمواضيع بتعتمد على بعض بالفهم، لذلك متابعة المحاضرات و عدم المراكمة أول خطوة، ودراستها بتكون من خلال قراءة السلايدات وفهم كيفية عمل الكودات والأهم هو التطبيق باستمرار كونه المادة فيها عدد كبير من الأوامر الجديدة واللي بتحتاج تطبيق حتى يتم فهم كيفية عملها، مع حل نماذج سنوات قبل الامتحان
-
-        📌توزيع العلامات:
-        20% على كويزين عمليين.
-        10% على المشروع النهائي.
-        30% على الميد.
-        40% على الفاينل.
-
-        📌سلايدات:
-        https://engzenon.com/library/material/347?title=NpSlides
-
-        📌كتاب:
-        https://engzenon.com/library/material/61...
-
-        وباقي المصادر بتلاقوهم على موقع زينون:
-
-        https://engzenon.com/library?filter=2`,
+        1- https://youtube.com/playlist?list=PLKlTaCM87WvrO0RElCsK30uS-ylzRLgFM&si=I2ZYrfvR5tB3Jeqf
+        2- https://youtube.com/playlist?list=PL0HDIDr4prB_FwprJ6s-SU4ksCGetPd2X&si=TV7lObGlxwUFNXOz
+        `,     
+    "Network Protocols": ``,
     Network: `
-        Networks💻
-
-        بتتميز مادة النتووركس بأنها بتشرح جزء كبير من الـ Web and Internet لأنهم معتمدين طريقة شرح الTop to Down Approach يعني من أقرب Layer للمستخدم (Application Layer) إلى الـPhysical Layer اللي هي على مستوى الsignals اللي بتمر بالأسلاك .
-
-        ⁃ بتبدأ المادّة بمقدّمة عن اـ networks بشكل عام والتعريف عن الـ Layaring System اللي رح نعتمده بالمادة واالي هو OSI TCP/IP model.
-
-        ⁃ وبشكل عام الـ Layering Systems، بتقسم النظام لعدة layers والinput لكل layer بعتمد على الoutput للـlayer اللي قبله وبتعمل processing للـdata وبتمررها للـlayer اللي بعدها .
-
-        ⁃ وبيحكي عن الـinternet بشكل عام ومكوناته وطرق التوصيل بين الend systems وعن كل layer بشكل بسيط وبعدها بالchapers 2-5 بنحكي عن كل layer بشكل مفصل وهمة Application ,Tranport ,Network ,Datalink layer
-
-        ⁃ وبالنهاية بحكو بشكل عام عن الphysical layer لكن بالعادة ما بتعمقو فيها زي البقية.
-
-        ❓كيف أدرس المادّة وأجيب A?
-
-        ⁃ المادة طويلة وبتصير ممتعة أكثر كل ما تعمقنا فيها واللي بدرسها بشكل صح وبتابعها ممكن تغنيه عن الCCNA , أهم اشي نكتب مع الدكتور كل اشي بحكيه وما ندور على مصادر تانية لأنه بجيب من شرحه، والشرح من ابحاثه..
-
-        📌لينكات بتلزمكم:
-
-        فيديوهات شرح د. خالد:
-        https://t.me/+dtx7HBduFN8wYTI0
         فيديوهات شرح دكتور رمزي:
         https://youtube.com/playlist?list=PLS5lYxmsWH9d-BfroY_SqAEUdhtoEuCI1&si=Hr8k7A3QSIMryiSC
         فيديوهات شرح د علي موسى:
         https://youtube.com/playlist?list=PLBVzCFty9US25z9qtn_eGyMQ3CHSlftHL&si=gvKU7mxLs6a65E2Y
-        سلايدات:
-        https://engzenon.com/library/material/365...
-
-        وبتلاقوا السنوات والنوتس والدفاتر على موقع زينون: 👇🏻
-        https://engzenon.com/library?filter=2`,     
+        `,     
     Security: `
-        أمن المعلومات والشبكات - “Security” 💻
-
-        المادة مكونة من ١٢ شابتر بتضم المواضيع التالية :
-
-        ☑ بالأول بنبدا بمفهوم سرية الداتا وبنتعلم عن التشفير “Cryptography” و ال”Encryption” وبنفهم الفرق بين النوعين، private and public key encryption
-
-        ☑ ثانيا بنتعلم عن أهم الprivate key encryption standards زي الDES و الAES.
-
-        ☑ ثالثا بنبدا بمفهوم سلامة الداتا "data integrity” وكيف الhash او الmessage digest بساعدنا نوصل لهاد الهدف.
-
-        ☑ رابعا بنرجع للpublic key encryption و بنتعلم عن اهم standard فيه والي هو ال”RSA” وكيف الhash مستخدم ليحقق الهدف من هاد النوع من الencryption
-
-        ☑ خامسا بنتعلم طريقة تبادل مفتاح الencryption بدون ما حدا يقدر يكتشف شو هو من خلال خوارزمية “Diffie-Hellman”
-
-        ☑ سادسا بنتعلم عن ال”authentication” و ال”access control بأنواعهم.
-
-        ☑ سابعا بنتعلم عن اكتر الattacks المنتشرة زي ال”DoS” و ال”Spoofing”
-
-        📌نظام العلامات:
-        30 ميد
-        50 فاينل
-        20 واجبات / كويزات
-
-        ❓كيف ادرس واجيب A
-        ضروري نكتب مع الدكتور كل كلمة بيحكيها ونتبّع أول بأول معه ونفهم كل اشي، والاهم ما نرجع لأي مصدر تاني غير الدكتور..
-
-        📌فيديوهات:
-        د. رمزي سعيفان:
-        https://youtube.com/playlist?list=PLS5lYxmsWH9f-XJJSPGWyoizx6bL4yAoX&si=7wfIvAiHZvwHulIf
-
-        📌سلايدات:
-        https://engzenon.com/library/material/348...
-
-        📌النوتس والدفاتر والسنوات بتلاقوهم على موقع زينون 👇🏻
-
-        https://engzenon.com/library?filter=2`,
+        https://youtube.com/playlist?list=PLS5lYxmsWH9f-XJJSPGWyoizx6bL4yAoX&si=7wfIvAiHZvwHulIf`,
     "Data Comm": `
-        Data comm💻
-
-        بالبداية بنبلّش بمُراجعة نيتوورك
-        خفيفة وبعدها بنبلّش بالشابتر التاني بالجدّ بتعريف شو يعني سيجنال ومكوّناتها وبعدها أنواع الBands وكيف نحوّل من time domain ل frequency domain وبنتعرّف بعدها على خصائص الdigit signal ومفهوم الbandwith والdata rate من وجهة نظر الcommunication وشو طرق زيادة ال data rate وكيف نبعت الsignal سواء كانت Analgoe او digital بعدها بننتقل للimpairments الّي بتأثر عالسجنال بس نبعتها وشو مفهوم الdiceble وبعدها بننتقل لطرق modulation والline coding وبعدها كيف نعمل utilization لل BW ونستفيد منها
-        وبننهي المادّة ب شابتر الError detection and correction كيف نصحح الداتا بس تتعرض لnoise
-
-        ❓كيف أدرس وأجيب A ؟
-        المادة سهلة لكن ما بتغني عن عدم متابعتها المفاهيم كلها بتبني ع بعض وضروري نميّز كل قانون متى نستخدمه ونفهم المادة ك concepts مش قانون وأطبّق عليه بس لإنه عدد القوانين بالمادة محدود جداً
-
-        📌لينكات بتلزمكم:
-        فيديوهات:
         https://youtube.com/playlist?list=PLy42_pl2XRL7xTFR-3jZtB8iQz2GoZhKu&si=avNNsmg_eyOBaU-7
-        الكتاب:
-        https://engzenon.com/library/material/292?title=Forouzan,%20Behrouz%20-%20Data%20Communications%20and%20Network-McGraw-Hill%20(2013)
-        حلول الكتاب:
-        https://engzenon.com/library/material/401...
-        السلايدات:
-        https://engzenon.com/library/material/293...
-        📌النوتس والدفاتر والسنوات بتلاقوهم على موقع زينون 👇🏻
-        https://engzenon.com/library?filter=2
-
         ريكوردات دكتور رمزي سعيفان:
         https://t.me/+1rKsjEEUURJhNzE0`,     
     "Digital Logic": `
-        المنطق الرقمي (اللوجيك)
-
-        المادة هاي تعتبر أول مادة تخصص لهندسة الحاسوب وفهمها مهم لباقي الخطة، وبشكل عام المادة بتحكي عن تصميم دارات بتقوم بوظائف معينة باستخدام البوابات المنطقية زي AND, OR, NOT وغيرها بشكل متزامن او غير متزامن.
-
-        طبعا المادة ما فيها أرقام غير شوي بشكل بسيط بمادة الفيرست، وأسئلتها غالبا ديزاين أو منطق، وضروري تحضر المحاضرات لأنه الفهم فيها أهم من التمرين.
-
-        1️⃣: مادة الفيرست بتبلش بمقدمة عن أنظمة العد والتحويل بينها وبعدين بتدخل بتركيب البوابات المنطقية وبتحكي عن ال Boolean algebra اللي بهتم بترجمة الدارة لمعادلة وكيفية تبسيطها لتقليل التكلفة.
-
-        2️⃣: بمادة السكند بتبلش المادة تحكي عن أنواع جديدة من البوابات وكيف نبدا نعمل منها أشياء مفيدة وبتصير تستخدم هاي الأشياء ببناء أشياء أكبر بس بشكل غير متزامن، وتعتبر مادة السكند مادة بدها جهد مضاعف مقارنة بالفيرست لأنه كثير سهل مش لانها صعبة.
-
-        3️⃣: مادة الفاينل بتدخل بتصميم دارات متزامنة وبتخزن معلومات وكيف الها تطبيقات واسعة في الحياة، وهون بتبلش تفهم كيف كثير أجهزة بتقوم بواظئفها زي الكومبيوتر او الحاسبة وغيرها من الأجهزة.
-
-        ❓كيف أدرس المادة واجيب فيها A:
-        بتندرس المادة من السلايدات اللي برفعها الدكتور إياد + حل أسئلة سنوات والتدريب على حل الأسئلة + تشييك على الكتاب وحل اسئلة منه.
-
-        توزيعة العلامات:
-        ٢٠فيرست،٣٠ سكند، أو ممكن النص بالنص، و٥٠ فاينل
-
-        وهي شوية لينكات بتلزمكم:
-
-        لينك الكتاب :
-        https://engzenon.com/library/material/226?title=Digital%20Logic%20Textbooks%20%26%20Solution%20Manuals
-
-        فيديوهات :
-
         فيديوهات دكتور إياد:
         https://youtube.com/playlist?list=PLYZvx2jaKOWL2ju78i8kHWJsNF2MZr3TQ&si=AZHkh-xpV4gex8LZ
         فيديوهات المهندسة أسماء:
-        https://youtube.com/playlist?list=PL8N0YNzPnFbSLPRQHFb7ig7Pogz4UQ9ss&si=E3YBBGhzy3bTJSOz
-
-        📌السنوات بتلاقوهم على موقع زينون 👇🏻
-        https://engzenon.com/library?filter=2`,
+        https://youtube.com/playlist?list=PL8N0YNzPnFbSLPRQHFb7ig7Pogz4UQ9ss&si=E3YBBGhzy3bTJSOz`,
     "Electronics 1": `
-        𝐄𝐥𝐞𝐜𝐭𝐫𝐨𝐧𝐢𝐜𝐬 𝟏 (الكترو)
-
-        ⁃ تعدّ مقدّمة في خطّة الإلكترونيّات ⚡️
-        عن شو بتحكي المادّة ؟
-
-        ⁃ مادّة الفيرست : بتحكي عن أشباه الموصلات كف نعملها وخصائصها، بعديها بنبلّش بمفهوم جديد إسمو Diode أو دايود وشو تعريفه وخصائصه وشو بعمل بالدارّة الكهربائيّة.
-
-        ⁃ مادّة الميدّ : بتحكي عن حلّ مسائل تحتوي على أكثر من دايود وبتكون أكثر تعقيد بس تقريباً نفس المبدأ، وكيف ممكن نحوّل التيّار المتردّد AC إلى DC وتطبيقات عليها.
-
-        ⁃ مادّة الفاينل : بنتعرّف على مصطلح جديد إسمو ترانزيستور وشو تعريفه وأهمّ وظائفو بالدارّة، وأنواع ثانية لإلو.
-
-        ❓كيف أدرس المادّة وأجيب A؟؟!
-        ⁃ المادّة بشكل عام بسيطة بس عشانها بتحتوي على مفاهيم جديدة بالكهربا فبدّنا نعطيها اهتمامنا.
-        ⁃ في مواضيع بسيركتس 1 لازم نكون متذكّرينها زي KVL و KCL ومواضيع ثانية بس بسيطة ومش بتعقيد سيركتس 1.
-
-        ⁃ شويّة تدريب على بروبليمز الكتاب وخصوصاً السجستد عشان بتيجي مشابهة للامتحانات.
-
-        توزيعة العلامات:👇🏻
-        ٢٠ فيرست، ٣٠ سكند، أو ممكن النص بالنص، و٥٠ فاينل
-
-        شوية لينكات بتلزمكم:
-
-        لينك الكتاب:
-        https://engzenon.com/library/material/1154?title=Electronics%201%20All%20Books%20
-
-        https://engzenon.com/library/material/1151?title=%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D9%85%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D9%85%D8%AF%20
-
-        سنوات:
-        https://engzenon.com/library/material/1207?title=Electronics%201%20Past%20Papers%20
-        فيديوهات:
         https://youtube.com/playlist?list=PLAS9eTwzbC3sXfmqtBN7r_8NZOjpG1MjG&si=7YUQQEVc62eMslLu
         https://youtube.com/playlist?list=PLkXK5Ys6YkPJeYfEHo8Rei1dToH6hB5e1&si=7Vmozo641zxtrapt
         موقع المهندس حمد للمادة :
         https://your-guide-in-electronics1.streamlit.app/`,  
     "Signals": `
-        تحليل اشارت وانظمة (السيجنالز)
-
-        تعتبر هاي المادة من أول مواد الاتصالات في قسم الكهرباء وبتحكي بشكل عام عن كيفية التعامل مع الموجات وحساب الطاقة والقدرة الها وكيفية الانتقال بين ال time domain وال frequency domain ,,, وبتمتاز هاي المادة بأنها بتحتاج لاساس متين في الرياضيات والقدرة على تحليل السؤال لكثرة التكاملات والاسئلة الرياضية فيها
-        ، المادة بتنقسم فيها ل٤ اجزاء :
-
-        الأول : بحكي عن طبيعة السجنال نفسها وانواع الانظمة
-
-        الثاني: بحكي عن convolution
-        وهو الّي بساعدنا انه نعرف كيف النظام بتصرف
-
-        الثالث: بحكي عن وكيف تم استخدام Fourier series فيها convolution
-
-        الرابع: عبارة عن تطبيقات عملية
-
-        ❓كيف أدرس المادة وأجيب فيها A?
-        بالبداية حضور المحاضرات مع الدكتور مهمة جدا، واكتبوا مع الدكتور كل اشي بحكيه، واللي بحكيلكم انه مهم ركزوا عليه، وخلي مراجعتكم للمادة تكون بدراسة الدفتر وحل السنوات واسئلة الكتاب .
-
-        توزيعة العلامات:👇🏻
-        ٢٠فيرست، ٣٠ سكند، أو ممكن النص بالنص و٥٠ فاينل
-
-        شوية لينكات بتلزمكم:
-
-        الكتاب :
-        https://engzenon.com/library/material/1113?title=B.-P-Lathi-Linear-systems-and-signals%203nd%20Edition
-        حلول الكتاب:
-        https://engzenon.com/library/material/1107?title=solutions%20lathi
-        سنوات:
-        https://engzenon.com/library/material/1127?title=Signals%20Past%20Papers%20
-        فيديوهات بتساعدكم :
         https://youtube.com/playlist?list=PLdL3o9rqPLb6pX0jukRtna5XE-1ZKPGCI&si=QOC0c-MH9q4vlIGR
         https://youtube.com/playlist?list=PLEt20mng0VEQ1dBPtMHBCDpUvu5NkOxu_&si=WIDWsLR6WslzKjRy`,
-    "CE Prob": `
-        مادة الاحتمالات والعمليات مادة مختلفة بطبيعتها وطريقة دراستها عن مختلف مواد القسم ، مواد القسم معتمدة أكثر على الفهم والتكرار والتفريغ ، بينما مادة الاحتمالات تماما تعتمد على توظيف المنطق السليم ومهارتك في النمذجة للمسائل
-        يعني المادة مش مبنية على عدد ساعات من التكرار والاعادة ، ولكن عدد ساعات اكثر على انك تحل مسائل جديدة تماما عليك وكل مرة تكتشف اشي جديد وتبني انماط
-        Chapter 1: probability theorems
-        أول تشابتر بتكلم عن مسلّمات الاحتمالات والتوافقيات والتباديل ، وهو شابتر جدا مهم ، ضروري تتوسع في حل المسائل فيه لأنه بنبنى عليه باقي الشباتر وحاول إفهم اصول القوانين
-
-        Chapter 2 : Random variables
-        الشابتر بيحكي عن 3 مفاهيم اساس وصلبه الدوال اللي بتتعامل مع المتغير العشوائي ومعانيها ، 
-        PDF
-        PMF
-        CDF
-        Chapter 3&4 : Distributions and expectations
-        هذول الشباتر مرتبطين ببعض بتبلش تتعلم كيف البيانات او المتغيرات العشوائية بتتبع توزيع معين ، وكيف تحسب التوقع تبعها 
-        Chapter 6 : Transformations
-        هون بتبلش تتعلم كيف تطلع توزيع دوال معينة بتاخذ متغير عشوائي كمعطى وهاي الدوال ما مرّت علينا
-
-        Chapter 5 : 
-        وهو يعتبر أكثر الشباتر خطرًا مع الأول ، هون انت بتبلش تتعامل مع اكثر من متغير عشوائي وبدك تصحصح وتصوّب أمورك في كالكولاس 3 خصوصًا مع double integrals 
-
-        راح أقسّم الكتب كالتالي بتقدر تحل أي كومبو وتزبّط بناءا عالناس اللي مرّت من الدفعات السابقة 
-        راح أصنف الكتب على الصعوبة وبإسم الكتّاب :
-        1) Oliver 
-        كتاب مبسط ممتاز تحله مباشرة بعد المحاضرات وما بياخذ وقت كثير ولكن لحاله غير كافي
-
-        2) Peebles
-        الكتاب المعتمد ، ممتاز وبتحتاج فهم ممتاز وعميق للنوتس مع حل البروبلمز وقراءة للكتاب بفهم
-
-        3) Jay and devore
-        ممتاز وبتطرق لكثير تطبيقات وبناسب الطبيعة الغير براهينية لمادتنا بقسم الحاسوب ، بحتاج جهد اكثر من peebles ومليان مسائل تطبيقية
-        4) Sheldon ross (First course in probability)
-        كتاب مليان براهين وامثلة متعبة ، مستواه فوق كل الكتب ومليان مسائل براهينية وتطبيقية 
-        
-        كل اللي بتحتاجوه بالدرايف : https://drive.google.com/drive/folders/1tKSqkyWaiKVLrGsB0VsuqIMI2zUnTr8G
-
-        لا تنسوا والدي ضيف الله من الرحمة`,    
-    "Logic Lab": `
-        مختبر المنطق الرقمي| logic lab
-
-        من أمتع لابات القسم، بتتعلموا فيه كيف تصمموا الgates وال combinational and sequantial logic circuit . بإستخدام طريقتين، إما schematic أو verilog programming
-        وحيكون على برنامج اسمه quartus 8.1 ، وحتستخدموا بورد اسمه FPGA, بعد ما تخلص من جزء السوفتوير، وتعمل simulation ، رح تنزل الديزاين اللي عملته على الFPGA .
-
-        * اللاب بتكون من 8 تجارب، التجربة بالمجمل مش طويلة بس لازم تكونوا محضرين، وحاضرين فيديوهات دكتور وليد، وتطبقوا كل اشي بإيدكم، لأنه الميد بيجي عملي
-
-        📌 تقسيمة العلامات:
-        - 5 كويز عملي
-        - 25 ميد
-        - 15 تجارب
-        - 15 بروجيكت
-        - 40 فاينل
-
-        * اللاب سهل جدا، ولكن صعوبته بمشروعه، بده شغل منيح ، وفكرته ما بتكون سهلة، عشان هيك حاولوا اختاروا تيم يساعدكم ✨
-
-        📌 روابط مهمة:
-
-        🔗لينك تنزيل البرنامج :https://drive.google.com/file/d/17pmtoLtK77f9Yf7O6M_AlaK4Y5aeNd4X/view?usp=sharing
-
-        🔗 التجارب : https://engzenon.com/library/material/203...
-
-        🔗 الشيتس:https://engzenon.com/library/material/204...
-
-        🔗 باقي السنوات والملخصات بتلاقوهم على موقع زينون: https://engzenon.com/library?filter=2`,    
+    "CE Prob": ` https://drive.google.com/drive/folders/1tKSqkyWaiKVLrGsB0VsuqIMI2zUnTr8G`,    
+    "Logic Lab": ``,    
     "Python Lab": `
-        مختبر تطبيقات الحاسوب | python lab
-
-        بيعطيك مقدمة لطيفة عن علم البيانات (Data Science) وكله تطبيق عملي، وبيعلمك أهم الأدوات والمكتبات اللي بتستخدمها لو بدك تدخل بمجال تحليل البيانات
-
-        - اللاب بتكون من 8 تجارب بحيث انه:
-        * أول 5 أسابيع:
-        • أساسيات البايثون، زي المتغيرات، جمل الشرط (if)، الحلقات (loops)، القوائم (Lists) وال functions وكل الأوامر اللي لازم تكون عارفها وكيف تقرأ الملفات وتعدل عليها وتحفظها .
-
-        * الأسبوع 6:
-        • مكتبة NumPy، واللي بتستخدمها للتعامل مع المصفوفات (Arrays) والعمليات عليها.
-
-        * الأسبوع 7:
-        • مكتبة Pandas، واللي رح تساعدك تنظم البيانات على شكل جداول (DataFrames)، تقرأها، تعدل عليها، وتفلترها حسب الحاجة.
-
-        * الأسبوع 8:
-        • مكتبة Matplotlib، واللي بتخليك ترسم البيانات وتعرضها بأشكال مختلفة زي المخططات البيانية.
-
-        تقسيمة العلامات :
-        * التجارب والبري لاب : 15
-        * السيرتفيكيت : 5
-        * الميد : 30
-        * البروجيكت : 10
-        * الفاينل :40
-
-        📌 روابط مهمة:
-
-        🔗كورس البايثون : (https://www.sololearn.com/learn/courses/python-intermediate)
-
-        🔗التجارب : https://engzenon.com/library/material/324...
-
-        🔗الشيتس : https://engzenon.com/library/material/1353?title=python%20sheets
-
-        🔗 فيديوهات الدكتور محمد عبد المجيد للبايثون :
+         فيديوهات الدكتور محمد عبد المجيد للبايثون :
         https://youtube.com/playlist?list=PLLgmXclU_qd4K8WdjRTNlO2TV2KJTG1UQ&si=4ZZUPAS1_TuRQY2Z&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMzUwNjg1NTMxNzI4AAEe5OM1jLx9zrnEv7ntQZaJr53nCwVbq8Wz12dEmuqJUQuUQoLi4mJQNmiazBs_aem_lubcphTbhYm4EPUFEHlajg&sfnsn=wa
 
-        🔗 فيديوهات الدكتور أشرف الصياغ :https://youtube.com/playlist?list=PLTTbg17Aw5x36qZF7qzIVBaPY_zumdUyN&si=3OY6ok1MKqbdc_o0
-
-        🔗وبتلاقوا السنوات وباقي المصادر على موقع زينون : https://engzenon.com/library?filter=2`,   
+         فيديوهات الدكتور أشرف الصياغ :
+         https://youtube.com/playlist?list=PLTTbg17Aw5x36qZF7qzIVBaPY_zumdUyN&si=3OY6ok1MKqbdc_o0`,   
     "Circuits Lab": `
-        مختبر الدّارات الكهربائيّة | Circuits lab
-
-        لاب سهل وبسيط، بتتعرّفوا فيه على أجهزة قياس مُختلفة رح تستخدموها للتّجارب خلاله
-
-        والتّجارب هي تطبيق عملي على المفاهيم النّظرية اللي كانت بالمادّة، مثل ohm's law, nodal and mesh analysis, superposition, thevenin and norton, delta - wye conversion وغيرهم كتير
-
-        * عدد التّجارب 8 ( للحاسوب ) - 9 ( للكهرباء )، التّجارب سهلة وسريعة لو كُنتوا حاضرين الفيديوهات وفاهمين الخطوات شو رح تعملوا
-
-        📌 تقسيمة العلامات:
-        - 10 ريبورتات
-        - 20 كويزّات
-        - 30 ميد ( بالغالب نظري ولكنّ ببعض فُصول كان عملي )
-        - 40 فاينل ( نظري )
-
-        📌 روابط مهمة:
-
-        🔗الفيديوهات اللي لازم تحضروها قبل اللّاب:
-        https://youtube.com/playlist?list=PLX1vbaAW5jkFJaihD2Quo4tjpl0qma_iD&si=R3wmrcrKxPtmfUnL
-
-        🔗 تفريغ الفيديوهات مع الخطوات:
-        https://engzenon.com/library/material/1336?title=Circuit%20Lab%20Summary%20Fall%202024-2025
-
-        🔗 ملفّات التّجارب والرّيبورتات:
-        https://engzenon.com/library/material/1349...
-
-        🔗 السّنوات وغيرهم بتلاقوهم على موقع زينون:
-        https://engzenon.com/library`,  
-    "Networks Lab": `
-        مختبر الشبكات | Networks Lab
-
-        * اللاب بتكون من 9 تجارب على كل المواضيع اللي أخذتوها بالمادة، كل تجربة طويلة نسبيًّا و بتوخذ معظم وقت اللاب..
-
-        عشان تنجزوا اللاب أسرع و ما تطولوا يفضل تكونوا محضرين قبل اللاب، حاضرين فديوهات و قرأتوا الـ Handout اللي بنزله الدكتور ع التيمز..
-
-        اللي بده رمز عالي بالمادة بده يتدرب منيح، و بس يروح من اللاب يرجع يطبق بالبيت كمان مرة، عشان يثبت المعلومات و يتعود ع الكوماندز عشان الامتحانات العملية..
-
-        📌 تقسيم العلامات :
-        20 امتحان فيرست (عملي)
-        20 امتحان سكند (عملي)
-        20 التجارب داخل اللابات و الـpre-lab لبعض التجارب
-        40 فاينل (نظري)
-
-        * المادة ما فيها مشروع، لكن بتوخذ وقت جوا اللاب، و ما في خيار تدخل تسلم الحل، لازم تحل جوا اللاب
-
-        📌 روابط مهمة:
-
-        🔗 موقع مفيد عليه فيديوهات لتجارب المادة:
-        https://lab-network.vercel.app/Exp1
-
-        🔗 تجارب المادة :
-        https://engzenon.com/library/material/353...
-
-        🔗 أسئلة سنوات و مصادر أخرى على موقع زينون:
-        https://engzenon.com/library`,               
-    "Embedded Lab": `
-        مختبر الأنظمة المضمنة | Embedded Systems Lab
-
-        مختبر الأنظمة المضمنة واحد من أهم اللابات في التخصص، وبيعطيك تجربة عملية في تصميم وبرمجة الامبيديد باستخدام الميكروكنترولر. خلال اللاب، حتتعلم كيف تتعامل مع الأدوات المختلفة للأنظمة المضمنة، وتطبق تجارب تشمل التايمرز، الcounters، التحويل من أنالوج لديجيتال، والاتصالات..
-
-        📌الأدوات والبرامج المستخدمة:
-        - MPLAB
-        - Proteus للسيميوليشن
-        - PIC Microcontrollers
-        - PIC Development Boards
-
-        📌تقسيمة اللاب:
-        - 10 تجارب تشمل السيميوليشن على protues وكتابة الكودات على mplab
-        - مشروع اللاب يتطلب تصميم نظام امبيديد متكامل من الكود والproteus والهاردوير.
-        - كويز عملي، وميد، وفاينل
-
-        📌 تقسيمة العلامات:
-        - 10% التجارب
-        - 10% كويز (عملي)
-        - 20% ميد (عملي)
-        - 15% مشروع + 5% ريبورت
-        - 40% فاينل (نظري)
-
-        📌 لينكات مهمة:
-
-        🔗 موقع Microchip لتنزيل الmplab نسخة :8.56
-        https://www.microchip.com)
-
-        🔗 شرح التجارب :https://youtube.com/playlist?list=PLYZvx2jaKOWLVDDrCKmHREidbLWz2aXwB&si=LOy-07keJMhWdQGg
-
-        🔗 التجارب:https://engzenon.com/library/material/149...
-
-        🔗 وأسئلة السنوات بتلاقوها عموقع زينون:https://engzenon.com/home`,    
-    "Technical Writing": `
-        الكتابة الفنية و الأخلاقيات | Technical writing and ethics
-
-        هي مادة وزنها ساعة بس مش لاب، بتحكي عن كتابة الـreport و كيف تعمل presentation و كتابة مانيوال و الـCV و الـproposals و ختام المادة عن ميثاق المهندسين و أخلاقيات الهندسة..
-
-        ️- بتفتحها مهارات إنجليزي، فلازم تكونوا منجزينها، و لو إنجليزياتك كويسة عموما ما بتتغلب بالمادة
-
-        📌 توزيع العلامات :
-        20 واجبات و كويزات
-        30 ميد
-        50 فاينل
-
-        📌 روابط مهمة:
-
-        🔗نوتس لمادة الميد:
-        https://engzenon.com/library/material/329... 
-
-        🔗 باقي المصادر و أسئلة السنوات على موقع زينون:
-        https://engzenon.com/library`,
-    "VLSI Lab": `
-        مختبر الإلكترونيات الرقمية | Electronics and VLSI Lab
-
-        بالنسبة لهذا اللاب، لازم تكون سريع بحلك وتدرب منيح، لأنه الوقت بالامتحان عالحرف! إذا مش متدرب كويس، يا دوب تلحق نصه، خاصة بالـ layout !
-
-        * ما في فيديوهات شرح، كل شيء بيعتمد عليك، يعني الدكتور/المهندسة بيشرحوا باللاب، بس أنت لازم تتذكر المعلومات وتعرف تطبق لحالك. أهم شيء تتعود تحل بسرعة.
-
-        * اللاب فيه 8 تجارب والتجارب طويلة وبتاخد وقت، فلازم تحضر منيح لكل وحدة. وفيهم التالي:
-        - التجربة 1: مراجعة خصائص الـ NMOS و PMOS
-        تجربة بسيطة، مجرد مراجعة لمعلومات الديجيتال عن كيفية عمل الـ transistors الأساسية (الـ NMOS و PMOS). سهلة نوعًا ما، وما فيها تعقيد كبير.
-        - التجربة 2: تصميم الـ Inverter
-        مراجعة على الـ Inverter، وبتتعلم كيف تصمم بالـ schematic والـ layout تبعه باستخدام الltspice والelectric.
-        - التجربة 3: تصميم الـ Basic Gates (AND, OR, NAND, NOR)
-        هون راح تشتغلوا على تصميم هاي الـgates بالـ layout والـ schematic.
-        - التجربة 4: تصميم الدوائر المنطقية المعقدة (Complex Functions)
-        بتاخد خطوة أبعد وبتتعلم كيف تصمم دوال منطقية أعقد وبتحتاج تكون سريع ومرتب بشغلك.
-        - التجربة 5: التعرف على أنواع متقدمة من الترانزستورات
-        بتتعرف على تقنيات متقدمة بالـ **transistors** مثل:
-        * الـPseudo-NMOS
-        * الـDynamic Logic
-        * الـDomino Logic
-        هذا الجزء بيخليك تشوف كيف ممكن تحسن الأداء وتقليل استهلاك الطاقة بالتصاميم. شوي بده تركيز.
-        - التجربة 6 & 7: تصميم الـ(Sequential Circuits)
-        * الجزء الأول: تصميم الـClocked SR Latch
-        * الجزء الثاني: تصميم الـMaster-Slave D Flip-Flop
-        - التجربة 8: تصميم وحدات الذاكرة ( SRAM Memory Cells)
-
-        📌 الامتحانات عملية بالكامل، يعني لازم تكون سريع بالشغل على البرامج.
-
-        📌توزيعة العلامات:
-        - لاب شيتس (In-Lab + Post-Lab): 15%
-        - الميد العملي: 30%
-        - المشروع: 15%
-        - الامتحان النهائي: 40%
-
-        📌 روابط مهمة:
-
-        🔗 تنزيل برنامج الـelectric من:
-        https://www.staticfreesoft.com/productsFree.html
-
-        🔗 فيديو شرح رسمة الـlayout للـ nand:
-        https://www.youtube.com/watch?v=Jqj8VmS38fw
-
-        🔗 اللاب شيتس بتلاقوهم عموقع زينون:
-        https://engzenon.com/library/material/1342...`,    
-    "Design Lab": `
-        مختبر تصميم الحاسوب| design lab
-
-        بالبداية رح نفهم شو هي لغة الverilog وكيف نكتب كود بعبر عن combinational او sequntial logic circuit على برنامج Verilogger Pro ، وكيف نكتب كود تيست لنشيك على شغلنا وكيف نقرأ الويفورم اللي بطلع عنا وشو مفهوم الdelays وكيف نحسبها .
-        بعدها رح نبلش نبني CPU، رح نبني memory وRegister file و Control unit بعدها رح نبني Piplined processor ونختبره .
-
-        * اللاب بتكون من 9 تجارب، ومهم تكونوا محضرين وحاضرين الفيديوهات وتحلوا بإيدكم.
-
-        📌 تقسيمة العلامات:
-        - البري لاب والتجارب : 15
-        - الميد : 30
-        - البروجيكت والكويز : 15
-        - الفاينل : 40
-
-        * مهم نعرف نقرأ الwaveform لكل حالة ونفهم كل جزئية كيف نكتبها ونحل سنوات ونحفظ اجزاء كل جزء بالبروسيسور من شو بيتكون decoders ,muxes,etc وكيف تركب الديزاين كامل ونحل بإيدنا وما نغش أي لاب ونركز مع المهندسة والنوتس الدقيقة اللي بتعطيها
-
-        📌 روابط مهمة:
-
-        🔗لينك تنزيل البرنامج :
-        https://drive.google.com/file/d/1Jss0ToiwfDk3Qi3r-6YWdYMCvjMcxVL0/view?usp=drive_link
-
-        🔗التجارب:https://engzenon.com/library/material/51?title=Design%20Lab%20Experiments%20Fall%202016-2025
-
-        🔗 فيديوهات اللاب:https://t.me/+RdfMp_YL7M02Yzhk
-
-        🔗 فيديوهات حلول اللابات وشرحها على قناة زينون: https://youtube.com/playlist?list=PLEg7GFRR8V5CvsM7vqla5oTlJhgE2n4Z7&si=Fu5JaYbM1QgWDQbR&fbclid=IwY2xjawPxYsRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR7SlnC7pv3Xo2kZSKvl77MT35a-nnsowsmvVvyxTq3F-_jwFIgoX85AEb2dgA_aem_heSKZGO74uBkV9XADvJHYQ&sfnsn=wa
-
-        🔗سنوات:https://engzenon.com/library/material/359...
-        https://engzenon.com/library/material/52`,     
-    "Numerical Lab (MATLAB)": `
-        مختبر التحليل العددي | Numerical Analysis Lab
-
-        واحد من المختبرات الأساسية لطلاب هندسة الحاسوب، حيث رح تتعلموا فيه كيفية استخدام MATLAB لحل المسائل العددية وتحليل البيانات وتطبيق الخوارزميات الرياضية والهندسية.
-
-        * شو رح تتعلموا؟
-        -التعامل مع بيئة MATLAB وأساسياته.
-        -التعامل مع البيانات، المصفوفات، والعمليات الحسابية عليها.
-        -البرمجة باستخدام **MATLAB** (Functions & Scripts).
-        -الرسم والتحليل الإحصائي ونمذجة البيانات.
-        -تحليل الأخطاء والخوارزميات العددية مثل: إيجاد الجذور، حل الأنظمة الخطية، التكامل والتفاضل، والـ Curve Fitting.
-
-        * عدد التجارب 9 و البرنامج المستخدم: MATLAB
-
-        📌 تقسيمة العلامات:
-        - اللاب شيتس : 18
-        - شهادات MATLAB (لازم تكملوا 4 شهادات) : 12
-        - ميد عملي (Labs 1-5) : 30
-        - فاينل عادة عملي ونظري : 40
-
-        * الشهادات الأربعة من موقع mathworks وهم عادة:
-        1- كورس الـMATLAB Coding Practices for Efficiency and Performance
-        2- كورس الـTables
-        3- كورس الـCurve Fitting Onramp
-        4- كورس الـoptimization_onramp
-
-        📌 روابط مهمة:
-
-        🔗فيديوهات شرح: https://t.me/NumericalAnalysisLab
-
-        🔗 فيديوهات الدكتور أشرف الصياغ :
-        https://youtube.com/playlist?list=PLTTbg17Aw5x2fiZ8i10lrYSp_e7Lft7kt&si=G33x09gp6M4zxAhI
-
-        🔗 تحميل MATLAB من موقع ماتلاب بنسخة مجانية للطلاب: (https://www.mathworks.com/academia/tah-portal.html)`,
-    "Parallel Lab": `
-        Parallel Processing Lab|مختبر المعالجات المتوازية
-
-        الهدف الأساسي من اللاب هو كتابة برامج موازية فعالة على أنظمة متعددة المعالجات، واستخدام تقنيات مثل CUDA للبرمجة على وحدات معالجة الرسومات (GPUs)، بالإضافة إلى البرمجة المتعددة المسارات (Multithreading) باستخدام Java .
-
-        - اللاب هو تكملة للمادة مو بس تطبيق عملي عليها ومكون من 6 تجارب وهم عبارة عن :
-        * أول تجربة عن Linux :مقدمة عنه أهم الكوماندز يلي اله وبالأخص كيف نتعامل مع الفايلات من خلاله ، التجربة سهلة ومباشرة وبعدها بكون في كويز من 5 عن هاي التجربة
-
-        * التجارب 2 3 4 بتحكي عن cuda and open mp كيف نتعامل مع 1d array and 2d array ، وبعديها مباشرة بنزل المشروع يلي لازم نستخدم فيه cuda and open mp
-
-        * التجارب 5 و 6 بتحكي عن java and multithreading
-
-        - محاضرات دكتور فهد وحل التجارب بايدك عن فهم كافي تحصل A
-
-        * توزيعة العلامات : التجارب : 20
-        كويز : 5
-        المشروع: 15
-        الميد بكون عملي بكل التجارب من 30
-        الفاينال نظري بكل التجارب من 40
-
-        📌 روابط مهمة:
-
-        🔗 فيديوهات شرح :
-        https://t.me/+a-zwQuJXwv5iNWFk
-
-        🔗التجارب والشيتس :
-        https://engzenon.com/library/material/1354?title=experiments,%20sheets%20and%20solutions%20`,   
+        https://youtube.com/playlist?list=PLX1vbaAW5jkFJaihD2Quo4tjpl0qma_iD&si=R3wmrcrKxPtmfUnL`,  
+    "Networks Lab": `https://lab-network.vercel.app/Exp1`,               
+    "Embedded Lab": `https://youtube.com/playlist?list=PLYZvx2jaKOWLVDDrCKmHREidbLWz2aXwB&si=LOy-07keJMhWdQGg`,    
+    "Technical Writing": ``,
+    "VLSI Lab": ``,    
+    "Design Lab": `https://t.me/+RdfMp_YL7M02Yzhk`,     
+    "Numerical Lab (MATLAB)": `https://youtube.com/playlist?list=PLTTbg17Aw5x2fiZ8i10lrYSp_e7Lft7kt&si=G33x09gp6M4zxAhI`,
+    "Parallel Lab": `https://t.me/+a-zwQuJXwv5iNWFk`,   
     "Advanced Networks Lab": `
-        مختبر الشبكات المتقدم | Advanced Lab
-
-        لاب الأدفانس بنحكى عنه إنه سهل، لكنه فعليًا بده فهم مش حفظ، بتتعلموا فيه كيف تصمموا وتديروا VLANs، وتخليها تتواصل مع بعض باستخدام Inter-VLAN Routing. بعدها، بتتعرفوا على Tagging وأهميته، بعدها رح ننتقل لنعرف شو هي الwirelessوشو بنحتاج لحتى نشبك الاجهزة ع wireless device. وبعدين بنروح لموضوع Port Security لحماية الports، ووبعدها أهم تجربةACL رح نعرف كيف نعمل limitation عالtrafficلي بتطلع من أي جهاز وبتمر بالراوتر تبعنا. بعدين بتفهموا NATing وكيفية استخدامه، وننهي بانه نعمل configurations مشان نضمن السيكيوريتي والdata integrity باستخدام MAP.
-
-        * اللاب بتكون من 9 تجارب و عشان تجيب الـ A في اللاب، لازم تكون فاهم كل command بتكتبه وتعرف وين تستخدمه بالضبط على أي Routerوعلى أي Port. في ACL، لو في خطأ بالترتيب، لازم تمسح القوائم كاملين وترجع تضيفها بالترتيب الصح. كمان لازم تعرف متى تستخدم Trunking ومتى تستخدم Access Mode
-
-        📌تقسيمة العلامات:
-        - تجارب: 10
-        - كويز نظري: 10
-        - كويز عملي: 10
-        - ميد عملي: 30
-        - فاينل: 40%
-
-        * اللاب سهل إذا فهمت الأساسيات، لكن أهم شيء هو التمرين والتطبيق العملي
-
-        📌 روابط مهمة:
-
-        🔗فيديوهات :https://youtube.com/playlist?list=PLS5lYxmsWH9fCEA00wMj5CbGUzlt_OyXz&si=3UMVG5liyv6WbxW2
-
-        🔗 تجارب: https://engzenon.com/library/material/337?title=Experiments%20files%202024
-
-        🔗 السنوات بتلاقوهم على موقع زينون :
-        https://engzenon.com/library?filter=2`,
+        https://youtube.com/playlist?list=PLS5lYxmsWH9fCEA00wMj5CbGUzlt_OyXz&si=3UMVG5liyv6WbxW2`,
         DSD: `https://youtube.com/playlist?list=PLLgmXclU_qd4ZV0_KTvKc2AUy8YvNokpP&si=gzK_iiYqqBYzQPMV`,
         "Digital Image Processing": `https://youtube.com/playlist?list=PLYZvx2jaKOWK9qxNTyKqMeLKPLD-e6Y4c&si=34JZHycaB51ZlI2r`
 }
